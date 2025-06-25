@@ -1,0 +1,30 @@
+{
+   "dslc_404_page_widgets":{
+      "recent-posts-5":{
+         "title":"Recent Posts",
+         "number":5,
+         "show_date":false
+      },
+      "tag_cloud-4":{
+         "title":"Tags",
+         "taxonomy":"post_tag"
+      },
+      "categories-5":{
+         "title":"",
+         "count":1,
+         "hierarchical":1,
+         "dropdown":0
+      }
+   },
+   "dslc_comment_form_area":{
+      "recent-posts-4":{
+         "title":"",
+         "number":3,
+         "show_date":true
+      },
+      "tag_cloud-2":{
+         "title":"All Website Tags",
+         "taxonomy":"post_tag"
+      }
+   }
+}

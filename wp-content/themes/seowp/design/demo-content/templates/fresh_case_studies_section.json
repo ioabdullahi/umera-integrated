@@ -1,0 +1,106 @@
+{
+    "content": [
+        {
+            "id": "39322e61",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#DBE7EE",
+                "background_image": {
+                    "url": "",
+                    "id": "",
+                    "size": "2048x2048",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "top center",
+                "background_repeat": "no-repeat",
+                "background_size": "initial",
+                "shape_divider_top_height": {
+                    "unit": "px",
+                    "size": 207,
+                    "sizes": []
+                },
+                "shape_divider_top": "tilt",
+                "shape_divider_top_flip": "yes"
+            },
+            "elements": [
+                {
+                    "id": "27d605e8",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "2d63751e",
+                            "settings": {
+                                "title": "Our case studies<span>\nSee all projects<\/span>",
+                                "header_size": "h1",
+                                "title_color": "#000000",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Roboto",
+                                "typography_font_weight": "600",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.5,
+                                    "sizes": []
+                                },
+                                "text_stroke_text_stroke_type": "yes",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_css_classes": "sub-title-element",
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 29,
+                                    "sizes": []
+                                },
+                                "typography_line_height_mobile": {
+                                    "unit": "em",
+                                    "size": 1.2,
+                                    "sizes": []
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "035",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "1d678f64",
+                            "settings": {
+                                "_background_background": "classic",
+                                "_border_border": "none"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "Ctea-project-101",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Case Studies Section",
+    "type": "section"
+}

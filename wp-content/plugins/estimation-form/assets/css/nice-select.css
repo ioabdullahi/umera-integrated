@@ -1,0 +1,161 @@
+#lfb_bootstraped.lfb_bootstraped .nice-select {
+ /* -webkit-tap-highlight-color: transparent;
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  width: auto;*/
+  min-height: 42px;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select:hover {
+  border-color: #dbdbdb;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select:active,
+#lfb_bootstraped.lfb_bootstraped .nice-select.open,
+#lfb_bootstraped.lfb_bootstraped .nice-select:focus {
+  border-color: #999;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select:after {
+  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
+  content: '';
+  display: block;
+  height: 5px;
+  margin-top: -4px;
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  -webkit-transform-origin: 66% 66%;
+  -ms-transform-origin: 66% 66%;
+  transform-origin: 66% 66%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  width: 5px;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.open:after {
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.open .list {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: scale(1) translateY(0);
+  -ms-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.disabled {
+  border-color: #ededed;
+  color: #999;
+  pointer-events: none;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.disabled:after {
+  border-color: #cccccc;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.wide {
+  width: 100%;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.wide .list {
+  left: 0 !important;
+  right: 0 !important;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.right {
+  float: right;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.right .list {
+  left: auto;
+  right: 0;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.small {
+  font-size: 12px;
+  height: 36px;
+  line-height: 34px;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.small:after {
+  height: 4px;
+  width: 4px;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select.small .option {
+  line-height: 34px;
+  min-height: 34px;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select .list {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+  box-sizing: border-box;
+  margin-top: 4px;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform: scale(0.75) translateY(-21px);
+  -ms-transform: scale(0.75) translateY(-21px);
+  transform: scale(0.75) translateY(-21px);
+  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  z-index: 9;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select .list:hover .option:not(:hover) {
+  background-color: transparent !important;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select .option {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  list-style: none;
+  min-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 29px;
+  text-align: left;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select .option:hover,
+#lfb_bootstraped.lfb_bootstraped .nice-select .option.focus,
+#lfb_bootstraped.lfb_bootstraped .nice-select .option.selected.focus {
+  background-color: #f6f6f6;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select .option.selected {
+  font-weight: bold;
+}
+#lfb_bootstraped.lfb_bootstraped .nice-select .option.disabled {
+  background-color: transparent;
+  color: #999;
+  cursor: default;
+}
+#lfb_bootstraped.lfb_bootstraped .no-csspointerevents .nice-select .list {
+  display: none;
+}
+#lfb_bootstraped.lfb_bootstraped .no-csspointerevents .nice-select.open .list {
+  display: block;
+}

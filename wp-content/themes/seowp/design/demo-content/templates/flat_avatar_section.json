@@ -1,0 +1,35 @@
+{
+    "content": [
+        {
+            "id": "5d840396",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "463adcb2",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "46d45fd4",
+                            "settings": [],
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "Ctea-staff",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Avatar section",
+    "type": "section"
+}

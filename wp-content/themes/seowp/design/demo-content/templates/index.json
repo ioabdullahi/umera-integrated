@@ -1,0 +1,415 @@
+{
+    "templates": [
+		
+		        {
+            "template_name": "SEOWP_Sample Page",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_sample_page.json"
+        },
+				        {
+            "template_name": "SEOWP_Privacy Policy",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_privacy_policy.json"
+        },
+				        {
+            "template_name": "SEOWP_Section: Marketing Resources",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_marketing_resources.json"
+        },
+				        {
+            "template_name": "SEOWP_Inner page: About",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_about.json"
+        },
+				        {
+            "template_name": "SEOWP_Services: Local SEO",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_local_seo.json"
+        },
+				        {
+            "template_name": "Inner Page: Order Digital Marketing Services",
+            "template_type": "fresh",
+            "template_file": "fresh_inner_page_order_digital_marketing_services.json"
+        },
+				        {
+            "template_name": "SEOWP_Blog-Grid-3-Columns",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_blog_grid_3_columns.json"
+        },
+						        {
+            "template_name": "SEOWP_Inner page: Request a free SEO analysis",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_request_a_free_seo_analysis.json"
+        },
+						        {
+            "template_name": "SEOWP_Section: Case Studies",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_case_studies.json"
+        },
+						        {
+            "template_name": "SEOWP_Section: Blog",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_blog.json"
+        },
+						        {
+            "template_name": "SEOWP_Section: Clients",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_clients.json"
+        },
+						        {
+            "template_name": "Services: Reputation Management",
+            "template_type": "fresh",
+            "template_file": "fresh_services_reputation_management.json"
+        },
+						        {
+            "template_name": "SEOWP_Services: Search Engine Optimization",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_search_engine_optimization.json"
+        },
+						        {
+            "template_name": "Seowp_Services: Pay Per Click Management (PPC)",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_pay_per_click_management_ppc.json"
+        },
+						        {
+            "template_name": "SEOWP_Services: Email Marketing",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_email_marketing.json"
+        },
+						        {
+            "template_name": "SEOWP_Services: Digital Consultancy",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_digital_consultancy.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Content Marketing",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_content_marketing.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Conversion Rate Optimization (CRO)",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_conversion_rate_optimization_cro.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Affiliate Management",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_affiliate_management.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner page: Services",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_services.json"
+        },
+								        {
+            "template_name": "SEOWP_Home Page \u2014 Front Page",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_home_page_u2014_front_page.json"
+        },
+								        {
+            "template_name": "SEOWP_Section: Testimonials",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_testimonials.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Mobile Marketing",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_mobile_marketing.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Social Media Marketing",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_social_media_marketing.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Web Design",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_web_design.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Web Development",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_web_development.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner page: Contact us",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_contact_us.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner page: Contact us \u2013 Multiply addresses",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_contact_us_u2013_multiply_addresses.json"
+        },
+								        {
+            "template_name": "SEOWP_Instant Web Design Services Quote",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_instant_web_design_services_quote.json"
+        },
+								        {
+            "template_name": "SEOWP_Blog with Sidebar",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_blog_with_sidebar.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner Page: Instant Advertising Services Quote",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_instant_advertising_services_quote.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner page: Pricing Page",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_pricing_page.json"
+        },
+								        {
+            "template_name": "Case Studies Section",
+            "template_type": "fresh",
+            "template_file": "fresh_case_studies_section.json"
+        },
+								        {
+            "template_name": "Tell us about your project - Title section",
+            "template_type": "fresh",
+            "template_file": "fresh_tell_us_about_your_project_title_section.json"
+        },
+								        {
+            "template_name": "Tell us about your project - Form section",
+            "template_type": "fresh",
+            "template_file": "fresh_tell_us_about_your_project_form_section.json"
+        },
+								        {
+            "template_name": "Tell us about your project - Testimonial section",
+            "template_type": "fresh",
+            "template_file": "fresh_tell_us_about_your_project_testimonial_section.json"
+        },
+										        {
+            "template_name": "Footer part",
+            "template_type": "fresh",
+            "template_file": "fresh_footer_part.json"
+        },
+										        {
+            "template_name": "SEOWP_Services: Company online presence analysis and audit",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_company_online_presence_analysis_and_audit.json"
+        },
+										        {
+            "template_name": "SEOWP_Inner Page: Instant SEO Services Quote",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_instant_seo_services_quote.json"
+        },
+										        {
+            "template_name": "SEOWP_Home page \u2014 Front Page",
+            "template_type": "flat",
+            "template_file": "flat_seowp_home_page_u2014_front_page.json"
+        },
+										        {
+            "template_name": "SEOWP_Inner page: Contact us",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_contact_us.json"
+        },
+												        {
+            "template_name": "SEOWP_Inner page: Request a free SEO analysis",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_request_a_free_seo_analysis.json"
+        },
+												        {
+            "template_name": "SEOWP_Inner page: Services",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_services.json"
+        },
+												        {
+            "template_name": "SEOWP_Sample Page",
+            "template_type": "flat",
+            "template_file": "flat_seowp_sample_page.json"
+        },
+												        {
+            "template_name": "SEOWP_Privacy Policy \u2014 Draft, Privacy Policy Page",
+            "template_type": "flat",
+            "template_file": "flat_seowp_privacy_policy_u2014_draft_privacy_policy_page.json"
+        },
+												        {
+            "template_name": "SEOWP_Section: Case Studies",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_case_studies.json"
+        },
+												        {
+            "template_name": "SEOWP_Section: Clients",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_clients.json"
+        },
+												        {
+            "template_name": "SEOWP_Section: Marketing Resources",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_marketing_resources.json"
+        },
+												        {
+            "template_name": "SEOWP_Section: Testimonials",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_testimonials.json"
+        },
+												        {
+            "template_name": "SEOWP_Services_Web_Development",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_web_development.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Company online presence analysis and audit",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_company_online_presence_analysis_and_audit.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Web_Design",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_web_design.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Content Marketing",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_content_marketing.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Conversion Rate Optimization (CRO)",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_conversion_rate_optimization_cro.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Social_Media_Marketing",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_social_media_marketing.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Digital Consultancy",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_digital_consultancy.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Email Marketing",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_email_marketing.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Search_Engine_Optimization",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_search_engine_optimization.json"
+        },
+														        {
+            "template_name": "seowp_Services: Local SEO",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_local_seo.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Mobile Marketing",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_mobile_marketing.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner page: Contact us \u2013 Multiply addresses",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_contact_us_u2013_multiply_addresses.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner Page: Instant Web Design Services Quote",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_instant_web_design_services_quote.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner Page: Instant SEO Services Quote",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_instant_seo_services_quote.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner page: Pricing Page",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_pricing_page.json"
+        },
+														        {
+            "template_name": "SEOWP_Blog Grid 3 Columns",
+            "template_type": "flat",
+            "template_file": "flat_seowp_blog_grid_3_columns.json"
+        },
+														        {
+            "template_name": "SEOWP_Blog with Sidebar",
+            "template_type": "flat",
+            "template_file": "flat_seowp_blog_with_sidebar.json"
+        },
+														        {
+            "template_name": "SEOWP_Section: Blog",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_blog.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner Page: Instant Advertising Services Quote",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_instant_advertising_services_quote.json"
+        },
+														        {
+            "template_name": "icon section with title & description",
+            "template_type": "flat",
+            "template_file": "flat_icon_section_with_title_description.json"
+        },
+														        {
+            "template_name": "logo slider section",
+            "template_type": "flat",
+            "template_file": "flat_logo_slider_section.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Pay_Per_Click_Management",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_pay_per_click_management.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Repulation_Management",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_repulation_management.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner page: About-1",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_about_1.json"
+        },
+														        {
+            "template_name": "Avatar section",
+            "template_type": "flat",
+            "template_file": "flat_avatar_section.json"
+        },
+														        {
+            "template_name": "Avatars Blackbg Section",
+            "template_type": "flat",
+            "template_file": "flat_avatars_blackbg_section.json"
+        },
+														        {
+            "template_name": "Our Case Studies Section",
+            "template_type": "flat",
+            "template_file": "flat_our_case_studies_section.json"
+        },
+																        {
+            "template_name": "Tell us about your project section(title)",
+            "template_type": "flat",
+            "template_file": "flat_tell_us_about_your_project_section_title.json"
+        },
+																        {
+            "template_name": "Hover Buttons together(section)",
+            "template_type": "flat",
+            "template_file": "flat_hover_buttons_together_section.json"
+        },
+																        {
+            "template_name": "Milestones boxes section",
+            "template_type": "flat",
+            "template_file": "flat_milestones_boxes_section.json"
+        },
+																        {
+            "template_name": "services-affiliate-management",
+            "template_type": "flat",
+            "template_file": "flat_services_affiliate_management.json"
+        },
+																        {
+            "template_name": "Order Digital Marketing Services",
+            "template_type": "flat",
+            "template_file": "flat_order_digital_marketing_services.json"
+        },
+																	        {
+            "template_name": "Tell us about your project section(form)",
+            "template_type": "flat",
+            "template_file": "flat_tell_us_about_your_project_section_form.json"
+																			}
+    ]
+}

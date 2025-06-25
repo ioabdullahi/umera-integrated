@@ -1,0 +1,45 @@
+{
+    "content": [
+        {
+            "id": "609675fe",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 100,
+                    "sizes": []
+                }
+            },
+            "elements": [
+                {
+                    "id": "5e60a48d",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "5ec37eb6",
+                            "settings": {
+                                "editor": "This is an example page. It\u2019s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n<blockquote class=\"wp-block-quote\">Hi there! I\u2019m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi\u00f1a coladas. (And gettin\u2019 caught in the rain.)<\/blockquote>\n\u2026or something like this:\n<blockquote class=\"wp-block-quote\">The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.<\/blockquote>\nAs a new WordPress user, you should go to <a href=\"https:\/\/blueastral.design\/seowp_elementor\/wp-admin\/\">your dashboard<\/a> to delete this page and create new pages for your content. Have fun!\n\n<style>body:not(.dslc-page-has-content) .site-content .dslc-modules-section-wrapper, body:not(.dslc-page-has-content) .site-content .dslca-add-modules-section, body.no-lc-installed .entry-content, body.no-lc-installed .entry-title, body.no-lc-installed .blog-post-meta-date {\n    max-width: 1200px;\n}<\/style>",
+                                "_element_width": "inherit",
+                                "_css_classes": "full_width_section"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "SEOWP_Sample Page",
+    "type": "page"
+}

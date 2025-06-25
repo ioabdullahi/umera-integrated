@@ -1,0 +1,24 @@
+.editor-post-title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11)
+}
+
+.wp-block {
+    max-width: 740px
+}
+
+.wp-block[data-align="wide"] {
+    max-width: 1040px
+}
+
+.wp-block[data-align="full"] {
+    max-width: none
+}
+
+pre.wp-block-verse,
+.wp-block-verse pre {
+    color: inherit
+}
+
+/*# sourceMappingURL=style-editor.css.map */

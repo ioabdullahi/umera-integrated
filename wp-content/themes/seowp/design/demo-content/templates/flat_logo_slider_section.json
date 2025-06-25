@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "id": "21adaa32",
+            "settings": {
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "border_color": "#F1F1F1",
+                "margin": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "5080e71f",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "306ef956",
+                            "settings": {
+                                "carousel": [
+                                    {
+                                        "id": 70068,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-9-1.png"
+                                    },
+                                    {
+                                        "id": 70071,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-6-1.png"
+                                    },
+                                    {
+                                        "id": 70069,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-8-1.png"
+                                    },
+                                    {
+                                        "id": 70067,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-11-1.png"
+                                    },
+                                    {
+                                        "id": 70072,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-5-1.png"
+                                    },
+                                    {
+                                        "id": 70066,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-12-1.png"
+                                    },
+                                    {
+                                        "id": 70074,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-2-1.png"
+                                    },
+                                    {
+                                        "id": 70075,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-1-1.png"
+                                    },
+                                    {
+                                        "id": 70070,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-10-1.png"
+                                    },
+                                    {
+                                        "id": 70073,
+                                        "url": "##base_theme_directory##/elemetor_support_icons/clientlogo-3-1.png"
+                                    }
+                                ],
+                                "thumbnail_size": "custom",
+                                "thumbnail_custom_dimension": {
+                                    "width": "133",
+                                    "height": "133"
+                                },
+                                "slides_to_show": "6",
+                                "navigation": "dots",
+                                "lazyload": "yes",
+                                "autoplay": "no",
+                                "slides_to_scroll": "6",
+                                "speed": 1000,
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding_tablet": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image-carousel",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "logo slider section",
+    "type": "section"
+}

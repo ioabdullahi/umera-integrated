@@ -1,0 +1,547 @@
+{
+    "content": [
+        {
+            "id": "307bfe48",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "6e23e40b",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "13f940f2",
+                            "settings": {
+                                "shortcode": "[estimation_form form_id=\"102\"]",
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "80",
+                                    "right": "0",
+                                    "bottom": "80",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "shortcode",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "693c9588",
+            "settings": {
+                "structure": "30",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "40",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "4a9d9ab5",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "216026dd",
+                            "settings": {
+                                "view": "framed",
+                                "shape": "square",
+                                "title_text": "Secure Payments",
+                                "description_text": "All our payments are processed via PayPal or Stripe. You do not need a PayPal account and we do not store any payment card details on our website.",
+                                "position": "left",
+                                "text_align": "left",
+                                "primary_color": "#5EBBED",
+                                "icon_space": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "24",
+                                    "right": "24",
+                                    "bottom": "24",
+                                    "left": "24",
+                                    "isLinked": true
+                                },
+                                "title_color": "#353639",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_family": "Roboto",
+                                "title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "title_typography_font_weight": "300",
+                                "title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.1999999999999999555910790149937383830547332763671875,
+                                    "sizes": []
+                                },
+                                "description_color": "#41484D",
+                                "description_typography_typography": "custom",
+                                "description_typography_font_family": "Roboto",
+                                "description_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "description_typography_font_weight": "300",
+                                "description_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.399999999999999911182158029987476766109466552734375,
+                                    "sizes": []
+                                },
+                                "_css_classes": "defult_border",
+                                "selected_icon": {
+                                    "value": {
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/lock.svg",
+                                        "id": 62048
+                                    },
+                                    "library": "svg"
+                                },
+                                "title_typography_font_style": "normal",
+                                "description_typography_font_style": "normal",
+                                "position_mobile": "left",
+                                "icon_size_tablet": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "title_typography_font_size_tablet": {
+                                    "unit": "px",
+                                    "size": 19,
+                                    "sizes": []
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-box",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "df70815",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "56becdb3",
+                            "settings": {
+                                "view": "framed",
+                                "shape": "square",
+                                "title_text": "No hidden fees",
+                                "description_text": "There are no hidden costs, setup or termination fees attached to our SEO packages. All our plans are clear. We do not charge for any additional services.",
+                                "position": "left",
+                                "text_align": "left",
+                                "primary_color": "#B787E2",
+                                "icon_space": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "24",
+                                    "right": "24",
+                                    "bottom": "24",
+                                    "left": "24",
+                                    "isLinked": true
+                                },
+                                "title_color": "#353639",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_family": "Roboto",
+                                "title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "title_typography_font_weight": "300",
+                                "title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.1999999999999999555910790149937383830547332763671875,
+                                    "sizes": []
+                                },
+                                "description_color": "#41484D",
+                                "description_typography_typography": "custom",
+                                "description_typography_font_family": "Roboto",
+                                "description_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "description_typography_font_weight": "300",
+                                "description_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.399999999999999911182158029987476766109466552734375,
+                                    "sizes": []
+                                },
+                                "_css_classes": "defult_border",
+                                "selected_icon": {
+                                    "value": {
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/tools-1.svg",
+                                        "id": 62050
+                                    },
+                                    "library": "svg"
+                                },
+                                "title_typography_font_style": "normal",
+                                "description_typography_font_style": "normal",
+                                "position_mobile": "left",
+                                "icon_size_tablet": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "title_typography_font_size_tablet": {
+                                    "unit": "px",
+                                    "size": 19,
+                                    "sizes": []
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-box",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "78877b3d",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "49c6754",
+                            "settings": {
+                                "view": "framed",
+                                "shape": "square",
+                                "title_text": "No outsourcing",
+                                "description_text": "Our team do not outsource any of SEO services outside. We prefer to be in control of all processes in-house and deliver the best quality in a long run.",
+                                "position": "left",
+                                "text_align": "left",
+                                "primary_color": "#EAA25E",
+                                "icon_space": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "24",
+                                    "right": "24",
+                                    "bottom": "24",
+                                    "left": "24",
+                                    "isLinked": true
+                                },
+                                "title_color": "#353639",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_family": "Roboto",
+                                "title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "title_typography_font_weight": "300",
+                                "title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.1999999999999999555910790149937383830547332763671875,
+                                    "sizes": []
+                                },
+                                "description_color": "#41484D",
+                                "description_typography_typography": "custom",
+                                "description_typography_font_family": "Roboto",
+                                "description_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "description_typography_font_weight": "300",
+                                "description_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.399999999999999911182158029987476766109466552734375,
+                                    "sizes": []
+                                },
+                                "_css_classes": "defult_border",
+                                "selected_icon": {
+                                    "value": {
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/key-1.svg",
+                                        "id": 62052
+                                    },
+                                    "library": "svg"
+                                },
+                                "position_mobile": "left",
+                                "icon_size_tablet": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "title_typography_font_size_tablet": {
+                                    "unit": "px",
+                                    "size": 19,
+                                    "sizes": []
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-box",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "215e0283",
+            "settings": {
+                "stretch_section": "section-stretched",
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "border_color": "#F5F5F5",
+                "margin": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "adeb6f2",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "245284a9",
+                            "settings": {
+                                "carousel": [
+                                    {
+                                        "id": 1180,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-9.png"
+                                    },
+                                    {
+                                        "id": 1178,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-6.png"
+                                    },
+                                    {
+                                        "id": 1179,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-8.png"
+                                    },
+                                    {
+                                        "id": 1182,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-11.png"
+                                    },
+                                    {
+                                        "id": 1177,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-5.png"
+                                    },
+                                    {
+                                        "id": 1183,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-12.png"
+                                    },
+                                    {
+                                        "id": 1175,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-2.png"
+                                    },
+                                    {
+                                        "id": 1174,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-1.png"
+                                    },
+                                    {
+                                        "id": 1181,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-10.png"
+                                    },
+                                    {
+                                        "id": 1176,
+                                        "url": "http:\/\/seowptheme.com\/themeinstaller\/plugins\/\/elemetor_support_icons\/clientlogo-3.png"
+                                    }
+                                ],
+                                "thumbnail_size": "custom",
+                                "thumbnail_custom_dimension": {
+                                    "width": "133",
+                                    "height": "133"
+                                },
+                                "slides_to_show": "6",
+                                "navigation": "dots",
+                                "autoplay": "no",
+                                "slides_to_scroll": "6",
+                                "speed": 1200,
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image-carousel",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "SEOWP_Inner Page: Instant Advertising Services Quote",
+    "type": "page"
+}

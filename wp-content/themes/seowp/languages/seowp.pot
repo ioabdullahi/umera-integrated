@@ -1,0 +1,1488 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SEOWP\n"
+"POT-Creation-Date: 2019-06-28 11:13-0300\n"
+"PO-Revision-Date: 2019-06-28 10:59-0300\n"
+"Last-Translator: SEOWP <help@seowptheme.com>\n"
+"Language-Team: help@seowptheme.com\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: inc/installer\n"
+"X-Poedit-SearchPathExcluded-2: inc/plugins-integration/plugins-installation\n"
+"X-Poedit-SearchPathExcluded-3: docs\n"
+"X-Poedit-SearchPathExcluded-4: languages\n"
+"X-Poedit-SearchPathExcluded-5: sass\n"
+"X-Poedit-SearchPathExcluded-6: images\n"
+"X-Poedit-SearchPathExcluded-7: iconfont\n"
+
+#: comments.php:40
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content.php:63 single-lbmn_footer.php:76
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:126
+msgid "Top Bar"
+msgstr ""
+
+#: functions.php:127 inc/installer-filters.php:501
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:149 inc/customizer/customizer.php:1642
+#: inc/customizer/customizer.php:1652
+msgid "Small"
+msgstr ""
+
+#: functions.php:150
+msgid "S"
+msgstr ""
+
+#: functions.php:155
+msgid "Normal"
+msgstr ""
+
+#: functions.php:156
+msgid "M"
+msgstr ""
+
+#: functions.php:161 inc/customizer/customizer.php:1644
+#: inc/customizer/customizer.php:1654
+msgid "Large"
+msgstr ""
+
+#: functions.php:162
+msgid "L"
+msgstr ""
+
+#: functions.php:167
+msgid "Huge"
+msgstr ""
+
+#: functions.php:168
+msgid "XL"
+msgstr ""
+
+#: functions.php:182
+msgid "Primary"
+msgstr ""
+
+#: functions.php:187
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:192
+msgid "Blue"
+msgstr ""
+
+#: functions.php:197
+msgid "Dark Gray"
+msgstr ""
+
+#: functions.php:202
+msgid "Light Gray"
+msgstr ""
+
+#: functions.php:207
+msgid "White"
+msgstr ""
+
+#: functions.php:358
+#, php-format
+msgid "The following required plugin is installed but inactive: %1$s."
+msgid_plural "The following required plugins are installed but inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:359
+#, php-format
+msgid "The following recommended plugin is installed but inactive: %1$s."
+msgid_plural ""
+"The following recommended plugins are installed but inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:68 inc/functions-nopluginsinstalled.php:199
+msgid "The header is disabled when editing the page."
+msgstr ""
+
+#: header.php:82 header.php:108 inc/functions-nopluginsinstalled.php:149
+msgid "Set Menu"
+msgstr ""
+
+#: inc/customizer/customizer.php:798
+msgid "Repeat"
+msgstr ""
+
+#: inc/customizer/customizer.php:799
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: inc/customizer/customizer.php:800
+msgid "Repeat Vertical"
+msgstr ""
+
+#: inc/customizer/customizer.php:801
+msgid "Do NOT Repeat"
+msgstr ""
+
+#: inc/customizer/customizer.php:805
+msgid "Top Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:806
+msgid "Top Center"
+msgstr ""
+
+#: inc/customizer/customizer.php:807
+msgid "Top Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:809
+msgid "Center Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:810 inc/customizer/customizer.php:1666
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/customizer.php:811
+msgid "Center Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:813
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:814
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/customizer/customizer.php:815
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:819
+msgid "Scroll"
+msgstr ""
+
+#: inc/customizer/customizer.php:820
+msgid "Fixed"
+msgstr ""
+
+#: inc/customizer/customizer.php:824
+msgid "Initial"
+msgstr ""
+
+#: inc/customizer/customizer.php:825
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer/customizer.php:826
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer/customizer.php:1309
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer/customizer.php:1509
+msgid "Open Library"
+msgstr ""
+
+#: inc/customizer/customizer.php:1586
+msgid "Font preset"
+msgstr ""
+
+#: inc/customizer/customizer.php:1626
+msgid "Oh man..."
+msgstr ""
+
+#: inc/customizer/customizer.php:1630
+msgid "100 Thin"
+msgstr ""
+
+#: inc/customizer/customizer.php:1631
+msgid "200 Light"
+msgstr ""
+
+#: inc/customizer/customizer.php:1632
+msgid "300 Book"
+msgstr ""
+
+#: inc/customizer/customizer.php:1633
+msgid "400 Regular"
+msgstr ""
+
+#: inc/customizer/customizer.php:1634
+msgid "500 Medium"
+msgstr ""
+
+#: inc/customizer/customizer.php:1635
+msgid "600 DemiBold"
+msgstr ""
+
+#: inc/customizer/customizer.php:1636
+msgid "700 Bold"
+msgstr ""
+
+#: inc/customizer/customizer.php:1637
+msgid "800 ExtraBold"
+msgstr ""
+
+#: inc/customizer/customizer.php:1638
+msgid "900 Heavy"
+msgstr ""
+
+#: inc/customizer/customizer.php:1643 inc/customizer/customizer.php:1653
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer/customizer.php:1646
+msgid "UPPERCASE: SMALL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1647
+msgid "UPPERCASE: MEDIUM"
+msgstr ""
+
+#: inc/customizer/customizer.php:1648
+msgid "UPPERCASE: LARGE"
+msgstr ""
+
+#: inc/customizer/customizer.php:1665 inc/customizer/customizer.php:1671
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:1667 inc/customizer/customizer.php:1673
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:1672
+msgid "Above"
+msgstr ""
+
+#: inc/customizer/customizer.php:1674
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/customizer.php:1675
+msgid "Disable Icons Globaly"
+msgstr ""
+
+#: inc/customizer/customizer.php:1679 inc/customizer/customizer.php:1685
+#: inc/customizer/customizer.php:1978
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer.php:1680
+msgid "Smooth"
+msgstr ""
+
+#: inc/customizer/customizer.php:1681
+msgid "Sharp"
+msgstr ""
+
+#: inc/customizer/customizer.php:1686
+msgid "Unfold"
+msgstr ""
+
+#: inc/customizer/customizer.php:1687
+msgid "Fading"
+msgstr ""
+
+#: inc/customizer/customizer.php:1688
+msgid "Scale"
+msgstr ""
+
+#: inc/customizer/customizer.php:1689
+msgid "Down to Up"
+msgstr ""
+
+#: inc/customizer/customizer.php:1690
+msgid "Dropdown"
+msgstr ""
+
+#: inc/customizer/customizer.php:1695
+msgid "Top-Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:1696
+msgid "Top-Center"
+msgstr ""
+
+#: inc/customizer/customizer.php:1697
+msgid "Top-Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:1699
+msgid "Botttom-Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:1700
+msgid "Botttom-Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:1711
+msgid "Notification panel"
+msgstr ""
+
+#: inc/customizer/customizer.php:1711
+msgid "Site-wide notification panel settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1712 inc/customizer/customizer.php:1737
+#: inc/customizer/customizer.php:1783 inc/customizer/customizer.php:1823
+msgid "Basic Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1713 inc/customizer/customizer.php:1738
+#: inc/customizer/customizer.php:1784 inc/customizer/customizer.php:1982
+#: inc/customizer/customizer.php:2306
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer/customizer.php:1714 inc/customizer/customizer.php:1739
+#: inc/customizer/customizer.php:2307
+msgid "Height"
+msgstr ""
+
+#: inc/customizer/customizer.php:1721
+msgid "Message Elements"
+msgstr ""
+
+#: inc/customizer/customizer.php:1722
+msgid "Message"
+msgstr ""
+
+#: inc/customizer/customizer.php:1723
+msgid "Linked URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:1726 inc/customizer/customizer.php:1745
+#: inc/customizer/customizer.php:1856 inc/customizer/customizer.php:1921
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/customizer.php:1727 inc/customizer/customizer.php:1746
+#: inc/customizer/customizer.php:1785 inc/customizer/customizer.php:1799
+#: inc/customizer/customizer.php:2007 inc/customizer/customizer.php:2325
+#: inc/customizer/customizer.php:2327
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1728 inc/customizer/customizer.php:1922
+#: inc/customizer/customizer.php:2326 inc/customizer/customizer.php:2328
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1729
+msgid "Background Hover Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1730
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1736
+msgid "Top bar"
+msgstr ""
+
+#: inc/customizer/customizer.php:1736
+msgid "Site-wide top panel settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1747 inc/customizer/customizer.php:1857
+#: inc/customizer/customizer.php:1923 inc/customizer/customizer.php:2026
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1748 inc/customizer/customizer.php:1858
+#: inc/customizer/customizer.php:1924 inc/customizer/customizer.php:2027
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1749 inc/customizer/customizer.php:1859
+#: inc/customizer/customizer.php:1925
+msgid "Link Hover Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1750 inc/customizer/customizer.php:1860
+msgid "Text Lines Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1752 inc/customizer/customizer.php:1862
+msgid "Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:1753 inc/customizer/customizer.php:1863
+#: inc/customizer/customizer.php:1930 inc/customizer/customizer.php:2030
+#: inc/customizer/customizer.php:2050 inc/customizer/customizer.php:2070
+#: inc/customizer/customizer.php:2090 inc/customizer/customizer.php:2110
+#: inc/customizer/customizer.php:2130 inc/customizer/customizer.php:2150
+#: inc/customizer/customizer.php:2317
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer/customizer.php:1754 inc/customizer/customizer.php:1864
+#: inc/customizer/customizer.php:1931 inc/customizer/customizer.php:2031
+#: inc/customizer/customizer.php:2051 inc/customizer/customizer.php:2071
+#: inc/customizer/customizer.php:2091 inc/customizer/customizer.php:2111
+#: inc/customizer/customizer.php:2131 inc/customizer/customizer.php:2151
+#: inc/customizer/customizer.php:2318
+msgid "Font Weight"
+msgstr ""
+
+#: inc/customizer/customizer.php:1755 inc/customizer/customizer.php:1865
+#: inc/customizer/customizer.php:1932 inc/customizer/customizer.php:2032
+#: inc/customizer/customizer.php:2052 inc/customizer/customizer.php:2072
+#: inc/customizer/customizer.php:2092 inc/customizer/customizer.php:2112
+#: inc/customizer/customizer.php:2132 inc/customizer/customizer.php:2152
+#: inc/customizer/customizer.php:2319
+msgid "Font Size (px)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1761
+msgid "Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1762 inc/customizer/customizer.php:1872
+msgid "First Level Items Align"
+msgstr ""
+
+#: inc/customizer/customizer.php:1763 inc/customizer/customizer.php:1890
+msgid "Icon Position"
+msgstr ""
+
+#: inc/customizer/customizer.php:1764 inc/customizer/customizer.php:1891
+#: inc/customizer/customizer.php:1937
+msgid "Icon Size (px)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1769 inc/customizer/customizer.php:1898
+msgid "Items Separator"
+msgstr ""
+
+#: inc/customizer/customizer.php:1770 inc/customizer/customizer.php:1899
+#: inc/customizer/customizer.php:1904
+msgid "Items Separator Opacity"
+msgstr ""
+
+#: inc/customizer/customizer.php:1781
+msgid "Header design"
+msgstr ""
+
+#: inc/customizer/customizer.php:1781 inc/customizer/customizer.php:1854
+#: inc/customizer/customizer.php:1919
+msgid "Site-wide header settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1786
+msgid "Header Height"
+msgstr ""
+
+#: inc/customizer/customizer.php:1791
+msgid "Menu Height"
+msgstr ""
+
+#: inc/customizer/customizer.php:1797
+msgid "Sticky On Scroll"
+msgstr ""
+
+#: inc/customizer/customizer.php:1798
+msgid "Stick the menu on scroll"
+msgstr ""
+
+#: inc/customizer/customizer.php:1800
+msgid "Sticky/Mobile Menu Height"
+msgstr ""
+
+#: inc/customizer/customizer.php:1805
+msgid "Sticky/Mobile Menu Padding"
+msgstr ""
+
+#: inc/customizer/customizer.php:1810
+msgid "Sticky Scroll Offset (save to apply)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1821 inc/installer-filters.php:279
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:1821
+msgid "Website logotype settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1824
+msgid "Placement:"
+msgstr ""
+
+#: inc/customizer/customizer.php:1825
+msgid "Normal Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:1826
+msgid "Maximum Logo Height (% to the height of the top header)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1832 inc/customizer/customizer.php:1871
+msgid "More Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1833
+msgid "Margin top (optional)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1838
+msgid "Margin left (optional)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1843
+msgid "Margin right (optional)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1854
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/customizer/customizer.php:1873
+msgid "Hover/Active Border Radius"
+msgstr ""
+
+#: inc/customizer/customizer.php:1878
+msgid "First Level Items Outer Spacing"
+msgstr ""
+
+#: inc/customizer/customizer.php:1883
+msgid "First Level Items Inner Spacing"
+msgstr ""
+
+#: inc/customizer/customizer.php:1889
+msgid "Icons"
+msgstr ""
+
+#: inc/customizer/customizer.php:1897
+msgid "Separators"
+msgstr ""
+
+#: inc/customizer/customizer.php:1910
+msgid "Menu elements"
+msgstr ""
+
+#: inc/customizer/customizer.php:1911
+msgid "Enable WPML switcher"
+msgstr ""
+
+#: inc/customizer/customizer.php:1912
+msgid "Label For Mobile Menu"
+msgstr ""
+
+#: inc/customizer/customizer.php:1919
+msgid "Mega Menu: Dropdown"
+msgstr ""
+
+#: inc/customizer/customizer.php:1926
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1927
+msgid "Menu Items Divider Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1929
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer/customizer.php:1943
+msgid "Menu settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:1944
+msgid "Dropdowns Animation"
+msgstr ""
+
+#: inc/customizer/customizer.php:1945
+msgid "Dropdown Panel Radius"
+msgstr ""
+
+#: inc/customizer/customizer.php:1950
+msgid "Dropdown Marker Opacity"
+msgstr ""
+
+#: inc/customizer/customizer.php:1962
+msgid "Top panel:"
+msgstr ""
+
+#: inc/customizer/customizer.php:1963 inc/customizer/customizer.php:1967
+#: inc/customizer/customizer.php:1971
+msgid "&mdash; Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:1964 inc/customizer/customizer.php:1968
+#: inc/customizer/customizer.php:1972
+msgid "&mdash; Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:1966
+msgid "Header top:"
+msgstr ""
+
+#: inc/customizer/customizer.php:1970
+msgid "Header bottom:"
+msgstr ""
+
+#: inc/customizer/customizer.php:1976
+msgid "Inner shadow"
+msgstr ""
+
+#: inc/customizer/customizer.php:1977
+msgid "Outer shadow"
+msgstr ""
+
+#: inc/customizer/customizer.php:1981
+msgid "Search field"
+msgstr ""
+
+#: inc/customizer/customizer.php:1981
+msgid "Settings for the search block in the site header"
+msgstr ""
+
+#: inc/customizer/customizer.php:1983
+msgid "Input Field Width (px)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1988
+msgid "Input Field Radius (px)"
+msgstr ""
+
+#: inc/customizer/customizer.php:1993
+msgid "Input Field Shadow"
+msgstr ""
+
+#: inc/customizer/customizer.php:1994
+msgid "Input Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:1995
+msgid "Text and Icon Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:2003
+msgid "Page Layout and Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:2003
+msgid "Here you can customize colors."
+msgstr ""
+
+#: inc/customizer/customizer.php:2005
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:2006
+msgid "Make Page Layout Boxed"
+msgstr ""
+
+#: inc/customizer/customizer.php:2008
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:2009
+msgid "Background Image Opacity"
+msgstr ""
+
+#: inc/customizer/customizer.php:2014
+msgid "Background Image Repeat"
+msgstr ""
+
+#: inc/customizer/customizer.php:2015
+msgid "Background Image Position"
+msgstr ""
+
+#: inc/customizer/customizer.php:2016
+msgid "Background Image Attachment"
+msgstr ""
+
+#: inc/customizer/customizer.php:2017
+msgid "Background Image Size"
+msgstr ""
+
+#: inc/customizer/customizer.php:2024
+msgid "Typography and Text Colors"
+msgstr ""
+
+#: inc/customizer/customizer.php:2024
+msgid "All the setings to make your text looks awesome."
+msgstr ""
+
+#: inc/customizer/customizer.php:2029
+msgid "Paragraphs"
+msgstr ""
+
+#: inc/customizer/customizer.php:2037 inc/customizer/customizer.php:2057
+#: inc/customizer/customizer.php:2077 inc/customizer/customizer.php:2097
+#: inc/customizer/customizer.php:2117 inc/customizer/customizer.php:2137
+#: inc/customizer/customizer.php:2157
+msgid "Line Height (px)"
+msgstr ""
+
+#: inc/customizer/customizer.php:2042 inc/customizer/customizer.php:2062
+#: inc/customizer/customizer.php:2082 inc/customizer/customizer.php:2102
+#: inc/customizer/customizer.php:2122 inc/customizer/customizer.php:2142
+#: inc/customizer/customizer.php:2162
+msgid "Margin Bottom (px)"
+msgstr ""
+
+#: inc/customizer/customizer.php:2047 inc/customizer/customizer.php:2067
+#: inc/customizer/customizer.php:2087 inc/customizer/customizer.php:2107
+#: inc/customizer/customizer.php:2127 inc/customizer/customizer.php:2147
+#: inc/customizer/customizer.php:2167
+msgid "Font Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:2049
+msgid "Heading 1"
+msgstr ""
+
+#: inc/customizer/customizer.php:2069
+msgid "Heading 2"
+msgstr ""
+
+#: inc/customizer/customizer.php:2089
+msgid "Heading 3"
+msgstr ""
+
+#: inc/customizer/customizer.php:2109
+msgid "Heading 4"
+msgstr ""
+
+#: inc/customizer/customizer.php:2129
+msgid "Heading 5"
+msgstr ""
+
+#: inc/customizer/customizer.php:2149
+msgid "Heading 6"
+msgstr ""
+
+#: inc/customizer/customizer.php:2180
+msgid "Sans-serif > Standard: Arial"
+msgstr ""
+
+#: inc/customizer/customizer.php:2181
+msgid "Sans-serif > Standard: Helvetica"
+msgstr ""
+
+#: inc/customizer/customizer.php:2182
+msgid "Sans-serif > Standard: Lucida Sans Unicode"
+msgstr ""
+
+#: inc/customizer/customizer.php:2183
+msgid "Sans-serif > Modern: Century Gothic"
+msgstr ""
+
+#: inc/customizer/customizer.php:2185
+msgid "Sans-serif > Narrow: Arial Narrow"
+msgstr ""
+
+#: inc/customizer/customizer.php:2186
+msgid "Sans-serif > Narrow Heavy: Impact"
+msgstr ""
+
+#: inc/customizer/customizer.php:2187
+msgid "Sans-serif > Heavy: Arial Black"
+msgstr ""
+
+#: inc/customizer/customizer.php:2189
+msgid "Serif > Standard: Cambria"
+msgstr ""
+
+#: inc/customizer/customizer.php:2190
+msgid "Serif > Standard: Verdana"
+msgstr ""
+
+#: inc/customizer/customizer.php:2191
+msgid "Serif > Modern: Constantia"
+msgstr ""
+
+#: inc/customizer/customizer.php:2192
+msgid "Serif > Old Style: Bookman Old Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:2195
+msgid "Font Presets"
+msgstr ""
+
+#: inc/customizer/customizer.php:2195
+msgid "All the setings to make your website looks awesome."
+msgstr ""
+
+#: inc/customizer/customizer.php:2198
+msgid "Font Preset 1"
+msgstr ""
+
+#: inc/customizer/customizer.php:2199 inc/customizer/customizer.php:2222
+#: inc/customizer/customizer.php:2245 inc/customizer/customizer.php:2268
+msgid "Standard Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:2200 inc/customizer/customizer.php:2223
+#: inc/customizer/customizer.php:2246 inc/customizer/customizer.php:2269
+msgid "Google Web Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:2201 inc/customizer/customizer.php:2224
+#: inc/customizer/customizer.php:2247 inc/customizer/customizer.php:2270
+msgid "Custom Web Font Name"
+msgstr ""
+
+#: inc/customizer/customizer.php:2202 inc/customizer/customizer.php:2225
+#: inc/customizer/customizer.php:2248 inc/customizer/customizer.php:2271
+msgid "Use Google Web Fonts"
+msgstr ""
+
+#: inc/customizer/customizer.php:2212 inc/customizer/customizer.php:2235
+#: inc/customizer/customizer.php:2258 inc/customizer/customizer.php:2281
+msgid "Use another for"
+msgstr ""
+
+#: inc/customizer/customizer.php:2213 inc/customizer/customizer.php:2236
+#: inc/customizer/customizer.php:2259 inc/customizer/customizer.php:2282
+msgid "Google Web Font -"
+msgstr ""
+
+#: inc/customizer/customizer.php:2214 inc/customizer/customizer.php:2237
+#: inc/customizer/customizer.php:2260 inc/customizer/customizer.php:2283
+msgid "Custom Web Font Name -"
+msgstr ""
+
+#: inc/customizer/customizer.php:2215 inc/customizer/customizer.php:2238
+#: inc/customizer/customizer.php:2261 inc/customizer/customizer.php:2284
+msgid "Use Google Web Fonts -"
+msgstr ""
+
+#: inc/customizer/customizer.php:2221
+msgid "Font Preset 2"
+msgstr ""
+
+#: inc/customizer/customizer.php:2244
+msgid "Font Preset 3"
+msgstr ""
+
+#: inc/customizer/customizer.php:2267
+msgid "Font Preset 4"
+msgstr ""
+
+#: inc/customizer/customizer.php:2290
+msgid "Additional character sets"
+msgstr ""
+
+#: inc/customizer/customizer.php:2291
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/customizer/customizer.php:2292
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/customizer/customizer.php:2293
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/customizer/customizer.php:2294
+msgid "Greek"
+msgstr ""
+
+#: inc/customizer/customizer.php:2295
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/customizer/customizer.php:2296
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/customizer/customizer.php:2305
+msgid "Call-to-action area"
+msgstr ""
+
+#: inc/customizer/customizer.php:2305
+msgid "Site-wide call to action area settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:2314
+msgid "Call to action Message"
+msgstr ""
+
+#: inc/customizer/customizer.php:2315
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/customizer.php:2336
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:2337
+msgid "Enable Page Preloading Effect"
+msgstr ""
+
+#: inc/customizer/customizer.php:2338
+msgid "Enable Off Canvas Mobile Menu"
+msgstr ""
+
+#: inc/customizer/customizer.php:2339
+msgid "Envato Purchase Code (activates automatic theme updates):"
+msgstr ""
+
+#: inc/customizer/customizer.php:2485
+msgid "Before Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:2486
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:2487 inc/installer-filters.php:101
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:2488 inc/functions-nopluginsinstalled.php:156
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/customizer.php:2489
+msgid "Other"
+msgstr ""
+
+#: inc/customizer/customizer.php:2491
+#, php-format
+msgid ""
+"Important: to apply font changes click %1$s\"Save & Publish\"%2$s on the top."
+msgstr ""
+
+#: inc/customizer/customizer.php:2494
+msgid "Find the fonts for your project in the"
+msgstr ""
+
+#: inc/customizer/customizer.php:2495
+msgid "Google Fonts directory"
+msgstr ""
+
+#: inc/customizer/customizer.php:2496
+msgid "Dropdown Preview"
+msgstr ""
+
+#: inc/customizer/customizer.php:2497
+msgid "Next Dropdown"
+msgstr ""
+
+#: inc/customizer/customizer.php:2498
+msgid "Close"
+msgstr ""
+
+#: inc/functions-extras.php:188
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/functions-extras.php:485
+msgid ""
+"SEO WP theme comes with automatic updates, one to one support and premium "
+"features. Please, activate your theme by <a href=\"https://support.seowptheme.com/article/61-how-to-update-the-theme-to-the-latest-version-envato-market-plugin"
+"\" target=\"_blank\">entering a purchase code.</a>"
+msgstr ""
+
+#: inc/functions-ini.php:267
+msgid "Mobile: Off-canvas Panel"
+msgstr ""
+
+#: inc/functions-ini.php:278
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/functions-nopluginsinstalled.php:114
+msgid "Older posts"
+msgstr ""
+
+#: inc/functions-nopluginsinstalled.php:118
+msgid "Newer posts"
+msgstr ""
+
+#: inc/installer-config.php:39
+msgid "Theme Config"
+msgstr ""
+
+#: inc/installer-config.php:42
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: inc/installer-config.php:43
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/installer-config.php:44
+msgid "Disable this wizard"
+msgstr ""
+
+#: inc/installer-config.php:46
+msgid "Skip"
+msgstr ""
+
+#: inc/installer-config.php:47
+msgid "Next"
+msgstr ""
+
+#: inc/installer-config.php:48
+msgid "Start"
+msgstr ""
+
+#: inc/installer-config.php:49
+msgid "Cancel"
+msgstr ""
+
+#: inc/installer-config.php:50 inc/installer-config.php:51
+#: inc/installer-config.php:52
+msgid "Install"
+msgstr ""
+
+#: inc/installer-config.php:53
+msgid "Import"
+msgstr ""
+
+#: inc/installer-config.php:54
+msgid "Activate"
+msgstr ""
+
+#: inc/installer-config.php:55
+msgid "Later"
+msgstr ""
+
+#: inc/installer-config.php:58
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: inc/installer-config.php:60
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#: inc/installer-config.php:62
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: inc/installer-config.php:63
+msgid "License key"
+msgstr ""
+
+#: inc/installer-config.php:64
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: inc/installer-config.php:65
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: inc/installer-config.php:66
+msgid "Need help?"
+msgstr ""
+
+#: inc/installer-config.php:69
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/installer-config.php:70
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: inc/installer-config.php:71
+msgid "We need to install premium plugins and configure the theme for you."
+msgstr ""
+
+#: inc/installer-config.php:72
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: inc/installer-config.php:74
+msgid "Install Child Theme"
+msgstr ""
+
+#: inc/installer-config.php:75
+msgid "You're good to go!"
+msgstr ""
+
+#: inc/installer-config.php:76
+msgid ""
+"Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: inc/installer-config.php:77
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: inc/installer-config.php:78
+msgid "Learn about child themes"
+msgstr ""
+
+#: inc/installer-config.php:79
+msgid ""
+"Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: inc/installer-config.php:80
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: inc/installer-config.php:82
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/installer-config.php:83
+msgid "You're up to speed!"
+msgstr ""
+
+#: inc/installer-config.php:84
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: inc/installer-config.php:85
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press \"Next"
+"\" to continue the setup wizard."
+msgstr ""
+
+#: inc/installer-config.php:86 inc/installer-config.php:90
+msgid "Advanced"
+msgstr ""
+
+#: inc/installer-config.php:88
+msgid "Import Content"
+msgstr ""
+
+#: inc/installer-config.php:89
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: inc/installer-config.php:92
+msgid "All done. Have fun!"
+msgstr ""
+
+#: inc/installer-config.php:95
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: inc/installer-config.php:96
+msgid "Extras"
+msgstr ""
+
+#: inc/installer-config.php:97
+msgid "View your website"
+msgstr ""
+
+#: inc/installer-config.php:98
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/installer-config.php:99
+msgid "Get Theme Support"
+msgstr ""
+
+#: inc/installer-config.php:100
+msgid "Start Customizing"
+msgstr ""
+
+#: inc/installer-filters.php:83
+msgid "Plugins Integration"
+msgstr ""
+
+#: inc/installer-filters.php:84
+msgid ""
+"Installed plugins need to be configured to work with the theme. This step is "
+"required."
+msgstr ""
+
+#: inc/installer-filters.php:107
+msgid "No"
+msgstr ""
+
+#: inc/installer-filters.php:109
+msgid "Proceed"
+msgstr ""
+
+#: inc/installer-filters.php:121
+msgid "The plugin integration step has been displayed"
+msgstr ""
+
+#: inc/installer-filters.php:154
+msgid "Integration"
+msgstr ""
+
+#: inc/installer-filters.php:167
+msgid "Required Templates"
+msgstr ""
+
+#: inc/installer-filters.php:168
+msgid "Demo content data."
+msgstr ""
+
+#: inc/installer-filters.php:169
+msgid "Pending"
+msgstr ""
+
+#: inc/installer-filters.php:170
+msgid "Installing"
+msgstr ""
+
+#: inc/installer-filters.php:171
+msgid "Success"
+msgstr ""
+
+#: inc/installer-filters.php:189
+msgid "Basic Menu"
+msgstr ""
+
+#: inc/installer-filters.php:193
+msgid "Top-Bar Menu"
+msgstr ""
+
+#: inc/installer-filters.php:197
+msgid "Default Footers"
+msgstr ""
+
+#: inc/installer-filters.php:201
+msgid "Default Headers"
+msgstr ""
+
+#: inc/installer-filters.php:205
+msgid "Headers – Layout 1"
+msgstr ""
+
+#: inc/installer-filters.php:209
+msgid "Headers – Layout 2"
+msgstr ""
+
+#: inc/installer-filters.php:213
+msgid "Templates"
+msgstr ""
+
+#: inc/installer-filters.php:371
+msgid "Demo Content"
+msgstr ""
+
+#: inc/installer-filters.php:377
+msgid "Footers"
+msgstr ""
+
+#: inc/installer-filters.php:381
+msgid "Footer Images"
+msgstr ""
+
+#: inc/installer-filters.php:386
+msgid "Home Pages"
+msgstr ""
+
+#: inc/installer-filters.php:390
+msgid "Home Page Images"
+msgstr ""
+
+#: inc/installer-filters.php:395
+msgid "Inner Pages - 1"
+msgstr ""
+
+#: inc/installer-filters.php:399
+msgid "Inner Pages - 2"
+msgstr ""
+
+#: inc/installer-filters.php:403
+msgid "Inner Pages - 3"
+msgstr ""
+
+#: inc/installer-filters.php:407
+msgid "Inner Pages - 4"
+msgstr ""
+
+#: inc/installer-filters.php:411
+msgid "Inner Pages - 5"
+msgstr ""
+
+#: inc/installer-filters.php:415
+msgid "Inner Pages - 6"
+msgstr ""
+
+#: inc/installer-filters.php:419
+msgid "Inner Pages - 7"
+msgstr ""
+
+#: inc/installer-filters.php:423
+msgid "Inner Pages - 8"
+msgstr ""
+
+#: inc/installer-filters.php:427
+msgid "Inner Pages - 9"
+msgstr ""
+
+#: inc/installer-filters.php:431
+msgid "Inner Pages - 10"
+msgstr ""
+
+#: inc/installer-filters.php:435
+msgid "Inner Pages - 11"
+msgstr ""
+
+#: inc/installer-filters.php:439
+msgid "Resources"
+msgstr ""
+
+#: inc/installer-filters.php:443
+msgid "Partners"
+msgstr ""
+
+#: inc/installer-filters.php:447
+msgid "Staff"
+msgstr ""
+
+#: inc/installer-filters.php:451
+msgid "Testimonials"
+msgstr ""
+
+#: inc/installer-filters.php:455
+msgid "Posts"
+msgstr ""
+
+#: inc/installer-filters.php:459
+msgid "Projects"
+msgstr ""
+
+#: inc/installer-filters.php:464
+msgid "Client Logos – Images"
+msgstr ""
+
+#: inc/installer-filters.php:468
+msgid "Posts – Images"
+msgstr ""
+
+#: inc/installer-filters.php:472
+msgid "Staff – Images"
+msgstr ""
+
+#: inc/installer-filters.php:476
+msgid "Services – Images"
+msgstr ""
+
+#: inc/installer-filters.php:480
+msgid "Backgrounds – Images"
+msgstr ""
+
+#: inc/installer-filters.php:484
+msgid "E-book Covers – Images"
+msgstr ""
+
+#: inc/installer-filters.php:488
+msgid "Project – Images"
+msgstr ""
+
+#: inc/installer-filters.php:492
+msgid "Slider – Images"
+msgstr ""
+
+#: inc/installer-filters.php:496
+msgid "Menu – Images"
+msgstr ""
+
+#: inc/installer-filters.php:508
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: inc/installer-filters.php:574
+msgid "Let's activate your theme!"
+msgstr ""
+
+#: inc/installer-filters.php:582
+msgid "Theme won't work to the full potential until this process completed."
+msgstr ""
+
+#: inc/installer-filters.php:673
+msgid "Hide"
+msgstr ""
+
+#: inc/installer-filters.php:675
+msgid "Show"
+msgstr ""
+
+#: inc/installer-filters.php:685
+msgid "SEOWP Theme"
+msgstr ""
+
+#: inc/installer-filters.php:727
+msgid "Let's activate your theme..."
+msgstr ""
+
+#: inc/installer-filters.php:728
+msgid "We need to install required premium plugins and configure the theme."
+msgstr ""
+
+#: inc/installer-filters.php:729
+msgid ""
+"Theme will not work to the full potential until you complete this process."
+msgstr ""
+
+#: inc/installer-filters.php:739
+msgid "Start Now"
+msgstr ""
+
+#: inc/plugins-integration/livecomposer-header-footer.php:124
+msgid ""
+"Your site is using the previous generation of the SEOWP headers. Edit in the "
+"WP Admin > Appearance > Customizer."
+msgstr ""
+
+#: inc/plugins-integration/masterslider.php:54
+#: inc/plugins-integration/masterslider.php:99
+msgid "Master Slider"
+msgstr ""
+
+#: inc/plugins-integration/masterslider.php:84
+msgid "-- Select --"
+msgstr ""
+
+#: inc/plugins-integration/masterslider.php:122
+msgid ""
+"Click the cog icon on the right of this box to choose which slider to show."
+msgstr ""
+
+#: inc/plugins-integration/metaboxes.php:50
+msgid "Page Design Settings"
+msgstr ""
+
+#: inc/plugins-integration/metaboxes.php:72
+msgid "Menu cover content"
+msgstr ""
+
+#: index.php:91
+msgid "Can't find the page requested."
+msgstr ""

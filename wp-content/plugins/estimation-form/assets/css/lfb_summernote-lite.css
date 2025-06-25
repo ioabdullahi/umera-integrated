@@ -1,0 +1,1703 @@
+/*!
+ * 
+ * Super simple wysiwyg editor v0.8.18
+ * https://summernote.org
+ * 
+ * 
+ * Copyright 2013- Alan Hong. and other contributors
+ * summernote may be freely distributed under the MIT license.
+ * 
+ * Date: 2020-05-20T18:09Z
+ * 
+ */
+/*!
+ * 
+ * Super simple wysiwyg editor v0.8.18
+ * https://summernote.org
+ * 
+ * 
+ * Copyright 2013- Alan Hong. and other contributors
+ * summernote may be freely distributed under the MIT license.
+ * 
+ * Date: 2020-05-20T18:09Z
+ * 
+ */
+@font-face {
+	font-family: "summernote";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(../fonts/summernote.eot);
+  src: url(../fonts/summernote.eot?#iefix) format("embedded-opentype"), url(../fonts/summernote.woff2) format("woff2"), url(../fonts/summernote.woff) format("woff"), url(../fonts/summernote.ttf) format("truetype");
+}
+
+#lfb_bootstraped.lfb_bootstraped [class^=note-icon]:before,
+#lfb_bootstraped.lfb_bootstraped [class*=" note-icon"]:before {
+	display: inline-block;
+	font-family: summernote;
+	font-style: normal;
+	font-size: inherit;
+	text-decoration: inherit;
+	text-rendering: auto;
+	text-transform: none;
+	vertical-align: middle;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-fw {
+	text-align: center;
+	width: 1.25em;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-border {
+	border: solid .08em #eee;
+	border-radius: .1em;
+	padding: 0.2em 0.25em 0.15em;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-pull-left {
+	float: left;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-pull-right {
+	float: right;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon.note-icon-pull-left {
+	margin-right: 0.3em;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon.note-icon-pull-right {
+	margin-left: 0.3em;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-align::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-align-center::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-align-indent::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-align-justify::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-align-left::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-align-outdent::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-align-right::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-arrow-circle-down::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-arrow-circle-left::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-arrow-circle-right::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-arrow-circle-up::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-arrows-alt::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-arrows-h::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-arrows-v::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-bold::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-caret::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-chain-broken::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-circle::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-close::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-code::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-col-after::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-col-before::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-col-remove::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-eraser::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-float-left::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-float-none::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-float-right::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-font::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-frame::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-italic::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-link::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-magic::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-menu-check::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-minus::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-orderedlist::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-pencil::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-picture::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-question::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-redo::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-rollback::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-row-above::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-row-below::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-row-remove::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-special-character::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-square::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-strikethrough::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-subscript::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-summernote::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-superscript::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-table::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-text-height::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-trash::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-underline::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-undo::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-unorderedlist::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-icon-video::before {
+	content: "";
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-frame {
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #000;
+	font-family: sans-serif;
+	border-radius: 4px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-toolbar {
+	padding: 10px 5px;
+	border-bottom: 1px solid #e2e2e2;
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #ddd;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-group {
+	position: relative;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-group > .note-btn-group {
+	margin-right: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-group > .note-btn:first-child {
+	margin-left: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-group .note-btn + .note-btn,
+#lfb_bootstraped.lfb_bootstraped .note-btn-group .note-btn + .note-btn-group,
+#lfb_bootstraped.lfb_bootstraped .note-btn-group .note-btn-group + .note-btn,
+#lfb_bootstraped.lfb_bootstraped .note-btn-group .note-btn-group + .note-btn-group {
+	margin-left: -1px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-group > .note-btn:not(:first-child),
+#lfb_bootstraped.lfb_bootstraped .note-btn-group > .note-btn-group:not(:first-child) > .note-btn {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-group > .note-btn:not(:last-child):not(.dropdown-toggle),
+#lfb_bootstraped.lfb_bootstraped .note-btn-group > .note-btn-group:not(:last-child) > .note-btn {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-group.open > .note-dropdown {
+	display: block;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn {
+	display: inline-block;
+	font-weight: 400;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid #dae0e5;
+	white-space: nowrap;
+	outline: 0;
+	color: #333;
+	background-color: #fff;
+	border-color: #dae0e5;
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 1.4;
+	border-radius: 3px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn:focus,
+#lfb_bootstraped.lfb_bootstraped .note-btn.focus {
+	color: #333;
+	background-color: #ebebeb;
+	border-color: #dae0e5;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn:hover {
+	color: #333;
+	background-color: #ebebeb;
+	border-color: #dae0e5;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn.disabled:focus,
+#lfb_bootstraped.lfb_bootstraped .note-btn.disabled.focus,
+#lfb_bootstraped.lfb_bootstraped .note-btn[disabled]:focus,
+#lfb_bootstraped.lfb_bootstraped .note-btn[disabled].focus,
+#lfb_bootstraped.lfb_bootstraped fieldset[disabled] .note-btn:focus,
+#lfb_bootstraped.lfb_bootstraped fieldset[disabled] .note-btn.focus {
+	background-color: #fff;
+	border-color: #dae0e5;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn:hover,
+#lfb_bootstraped.lfb_bootstraped .note-btn:focus,
+#lfb_bootstraped.lfb_bootstraped .note-btn.focus {
+	color: #333;
+	text-decoration: none;
+	border: 1px solid #dae0e5;
+	background-color: #ebebeb;
+	outline: 0;
+	border-radius: 1px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn:active,
+#lfb_bootstraped.lfb_bootstraped .note-btn.active {
+	background-image: none;
+	color: #333;
+	text-decoration: none;
+	border: 1px solid #dae0e5;
+	background-color: #ebebeb;
+	outline: 0;
+	border-radius: 1px;
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn.disabled,
+#lfb_bootstraped.lfb_bootstraped .note-btn[disabled],
+#lfb_bootstraped.lfb_bootstraped fieldset[disabled] .note-btn {
+	cursor: not-allowed;
+	-webkit-opacity: .65;
+	-khtml-opacity: .65;
+	-moz-opacity: .65;
+	opacity: .65;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=65);
+	filter: alpha(opacity=65);
+	box-shadow: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn > span.note-icon-caret:first-child {
+	margin-left: -1px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn > span.note-icon-caret:nth-child(2) {
+	padding-left: 3px;
+	margin-right: -5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-primary {
+	background: #fa6362;
+	color: #fff;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-primary:hover,
+#lfb_bootstraped.lfb_bootstraped .note-btn-primary:focus,
+#lfb_bootstraped.lfb_bootstraped .note-btn-primary.focus {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #dae0e5;
+	background-color: #fa6362;
+	border-radius: 1px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-block {
+	display: block;
+	width: 100%;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-block + .note-btn-block {
+	margin-top: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped input[type=submit].note-btn-block,
+#lfb_bootstraped.lfb_bootstraped input[type=reset].note-btn-block,
+#lfb_bootstraped.lfb_bootstraped input[type=button].note-btn-block {
+	width: 100%;
+}
+
+#lfb_bootstraped.lfb_bootstraped button.close {
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .close {
+	float: right;
+	font-size: 21px;
+	line-height: 1;
+	color: #000;
+	opacity: 0.2;
+}
+
+#lfb_bootstraped.lfb_bootstraped .close:hover {
+	-webkit-opacity: 1;
+	-khtml-opacity: 1;
+	-moz-opacity: 1;
+	-ms-filter: alpha(opacity=100);
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-dropdown {
+	position: relative;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-color .dropdown-toggle {
+	width: 30px;
+	padding-left: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-dropdown-menu {
+	display: none;
+	min-width: 100px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	float: left;
+	text-align: left;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	padding: 5px;
+	background-clip: padding-box;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-dropdown-menu > *:last-child {
+	margin-right: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-btn-group.open .note-dropdown-menu {
+	display: block;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-dropdown-item {
+	display: block;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-dropdown-item:hover {
+	background-color: #ebebeb;
+}
+
+#lfb_bootstraped.lfb_bootstraped a.note-dropdown-item,
+#lfb_bootstraped.lfb_bootstraped a.note-dropdown-item:hover {
+	margin: 5px 0;
+	color: #000;
+	text-decoration: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1050;
+	-webkit-opacity: 1;
+	-khtml-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	filter: alpha(opacity=100);
+	display: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal.open {
+	display: block;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-content {
+	position: relative;
+	width: auto;
+	margin: 30px 20px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background: #fff;
+	background-clip: border-box;
+	outline: 0;
+	border-radius: 5px;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-header {
+	padding: 10px 20px;
+	border: 1px solid #ededef;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-body {
+	position: relative;
+	padding: 20px 30px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-body kbd {
+	border-radius: 2px;
+	background-color: #000;
+	color: #fff;
+	padding: 3px 5px;
+	font-weight: 700;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-footer {
+	height: 40px;
+	padding: 10px;
+	text-align: center;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-footer a {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-footer a:hover,
+#lfb_bootstraped.lfb_bootstraped .note-modal-footer a:focus {
+	color: #23527c;
+	text-decoration: underline;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-footer .note-btn {
+	float: right;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-title {
+	font-size: 20px;
+	color: #42515f;
+	margin: 0;
+	line-height: 1.4;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-backdrop {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 1040;
+	background: #000;
+	-webkit-opacity: .5;
+	-khtml-opacity: .5;
+	-moz-opacity: .5;
+	opacity: .5;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	filter: alpha(opacity=50);
+	display: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal-backdrop.open {
+	display: block;
+}
+
+@media (min-width: 768px) {
+	#lfb_bootstraped.lfb_bootstraped .note-modal-content {
+		width: 600px;
+		margin: 30px auto;
+	}
+}
+
+@media (min-width: 992px) {
+	#lfb_bootstraped.lfb_bootstraped .note-modal-content-large {
+		width: 900px;
+	}
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-help-block {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #737373;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-link {
+	display: block;
+	padding: .5rem 1rem;
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-link:focus,
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-link:hover {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-link.disabled {
+	color: #868e96;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-tabs {
+	border-bottom: 1px solid #ddd;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-tabs .note-nav-item {
+	margin-bottom: -1px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-tabs .note-nav-link {
+	border: 1px solid transparent;
+	border-top-left-radius: .25rem;
+	border-top-right-radius: 0.25rem;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-tabs .note-nav-link:focus,
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-tabs .note-nav-link:hover {
+	border-color: #e9ecef #e9ecef #ddd;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-tabs .note-nav-link.disabled {
+	color: #868e96;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-nav-tabs .note-nav-item.show .note-nav-link {
+	color: #495057;
+	background-color: #fff;
+	border-color: #ddd #ddd #fff;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-tab-content {
+	margin: 15px auto;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-tab-content > .note-tab-pane:target ~ .note-tab-pane:last-child,
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-tab-content > .note-tab-pane {
+	display: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-tab-content > :last-child,
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-tab-content > .note-tab-pane:target {
+	display: block;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-form-group {
+	padding-bottom: 20px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-form-group:last-child {
+	padding-bottom: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-form-label {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	color: #42515f;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-input {
+	width: 100%;
+	display: block;
+	border: 1px solid #ededef;
+	background: #fff;
+	outline: 0;
+	padding: 6px 4px;
+	font-size: 14px;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-input::-webkit-input-placeholder {
+	color: #eee;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-input:-moz-placeholder {
+	color: #eee;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-input::-moz-placeholder {
+	color: #eee;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-input:-ms-input-placeholder {
+	color: #eee;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip {
+	position: absolute;
+	z-index: 1070;
+	display: block;
+	font-size: 13px;
+	transition: opacity .15s;
+	-webkit-opacity: 0;
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+	opacity: 0;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	filter: alpha(opacity=0);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.in {
+	-webkit-opacity: .9;
+	-khtml-opacity: .9;
+	-moz-opacity: .9;
+	opacity: .9;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	filter: alpha(opacity=90);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.top {
+	margin-top: -3px;
+	padding: 5px 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.right {
+	margin-left: 3px;
+	padding: 0 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.bottom {
+	margin-top: 3px;
+	padding: 5px 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.left {
+	margin-left: -3px;
+	padding: 0 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.bottom .note-tooltip-arrow {
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.top .note-tooltip-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.right .note-tooltip-arrow {
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	border-width: 5px 5px 5px 0;
+	border-right-color: #000;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip.left .note-tooltip-arrow {
+	top: 50%;
+	right: 0;
+	margin-top: -5px;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #000;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-tooltip-content {
+	max-width: 200px;
+	font-family: sans-serif;
+	padding: 3px 8px;
+	color: #fff;
+	text-align: center;
+	background-color: #000;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover {
+	position: absolute;
+	z-index: 1060;
+	display: block;
+	font-size: 13px;
+	font-family: sans-serif;
+	display: none;
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid #ccc;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.in {
+	display: block;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.top {
+	margin-top: -10px;
+	padding: 5px 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.right {
+	margin-left: 10px;
+	padding: 0 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.bottom {
+	margin-top: 10px;
+	padding: 5px 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.left {
+	margin-left: -10px;
+	padding: 0 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.bottom .note-popover-arrow {
+	top: -11px;
+	left: 20px;
+	margin-left: -10px;
+	border-top-width: 0;
+	border-bottom-color: #999;
+	border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.bottom .note-popover-arrow::after {
+	top: 1px;
+	margin-left: -10px;
+	content: " ";
+	border-top-width: 0;
+	border-bottom-color: #fff;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.top .note-popover-arrow {
+	bottom: -11px;
+	left: 20px;
+	margin-left: -10px;
+	border-bottom-width: 0;
+	border-top-color: #999;
+	border-top-color: rgba(0, 0, 0, 0.25);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.top .note-popover-arrow::after {
+	bottom: 1px;
+	margin-left: -10px;
+	content: " ";
+	border-bottom-width: 0;
+	border-top-color: #fff;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.right .note-popover-arrow {
+	top: 50%;
+	left: -11px;
+	margin-top: -10px;
+	border-left-width: 0;
+	border-right-color: #999;
+	border-right-color: rgba(0, 0, 0, 0.25);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.right .note-popover-arrow::after {
+	left: 1px;
+	margin-top: -10px;
+	content: " ";
+	border-left-width: 0;
+	border-right-color: #fff;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.left .note-popover-arrow {
+	top: 50%;
+	right: -11px;
+	margin-top: -10px;
+	border-right-width: 0;
+	border-left-color: #999;
+	border-left-color: rgba(0, 0, 0, 0.25);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.left .note-popover-arrow::after {
+	right: 1px;
+	margin-top: -10px;
+	content: " ";
+	border-right-width: 0;
+	border-left-color: #fff;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 11px solid transparent;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover-arrow::after {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	content: " ";
+	border-width: 10px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover-content {
+	padding: 3px 8px;
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	min-width: 100px;
+	min-height: 30px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor {
+	position: relative;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-dropzone {
+	position: absolute;
+	display: none;
+	z-index: 100;
+	color: #87cefa;
+	background-color: #fff;
+	opacity: 0.95;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-dropzone .note-dropzone-message {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-dropzone.hover {
+	color: #098ddf;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.dragover .note-dropzone {
+	display: table;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area {
+	position: relative;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable {
+	outline: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable sup {
+	vertical-align: super;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable sub {
+	vertical-align: sub;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable img.note-float-left {
+	margin-right: 10px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable img.note-float-right {
+	margin-left: 10px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe {
+	border: 1px solid #00000032 32;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame.codeview .note-editing-area .note-editable,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe.codeview .note-editing-area .note-editable {
+	display: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame.codeview .note-editing-area .note-codable,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe.codeview .note-editing-area .note-codable {
+	display: block;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-editing-area,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-editing-area {
+	overflow: hidden;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-editing-area .note-editable,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-editing-area .note-editable {
+	padding: 10px;
+	overflow: auto;
+	word-wrap: break-word;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-editing-area .note-editable[contenteditable=false],
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-editing-area .note-editable[contenteditable=false] {
+	background-color: #8080801d 1d;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-editing-area .note-codable,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-editing-area .note-codable {
+	display: none;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	box-shadow: none;
+	font-family: Menlo, Monaco, monospace, sans-serif;
+	font-size: 14px;
+	color: #ccc;
+	background-color: #222;
+	resize: none;
+	outline: none;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame.fullscreen,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe.fullscreen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	z-index: 1050;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame.fullscreen .note-resizebar,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe.fullscreen .note-resizebar {
+	display: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.42857143;
+	height: 20px;
+	margin-bottom: 0;
+	color: #000;
+	border: 0;
+	border-top: 1px solid #e2e2e2;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output:empty,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output:empty {
+	height: 0;
+	border-top: 0 solid transparent;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .pull-right,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .pull-right {
+	float: right !important;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .text-muted,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .text-muted {
+	color: #777;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .text-primary,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .text-primary {
+	color: #286090;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .text-success,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .text-success {
+	color: #3c763d;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .text-info,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .text-info {
+	color: #31708f;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .text-warning,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .text-warning {
+	color: #8a6d3b;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .text-danger,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .text-danger {
+	color: #a94442;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .alert,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .alert {
+	margin: -7px 0 0 0;
+	padding: 7px 10px 2px 10px;
+	border-radius: 0;
+	color: #000;
+	background-color: #f5f5f5;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .alert .note-icon,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .alert .note-icon {
+	margin-right: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .alert-success,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .alert-success {
+	color: #3c763d !important;
+	background-color: #dff0d8 !important;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .alert-info,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .alert-info {
+	color: #31708f !important;
+	background-color: #d9edf7 !important;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .alert-warning,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .alert-warning {
+	color: #8a6d3b !important;
+	background-color: #fcf8e3 !important;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-status-output .alert-danger,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-status-output .alert-danger {
+	color: #a94442 !important;
+	background-color: #f2dede !important;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-statusbar,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-statusbar {
+	background-color: #8080801d;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top: 1px solid #00000032 32;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-statusbar .note-resizebar,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-statusbar .note-resizebar {
+	padding-top: 1px;
+	height: 9px;
+	width: 100%;
+	cursor: ns-resize;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-statusbar .note-resizebar .note-icon-bar,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-statusbar .note-resizebar .note-icon-bar {
+	width: 20px;
+	margin: 1px auto;
+	border-top: 1px solid #00000032 32;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-statusbar.locked .note-resizebar,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-statusbar.locked .note-resizebar {
+	cursor: default;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-statusbar.locked .note-resizebar .note-icon-bar,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-statusbar.locked .note-resizebar .note-icon-bar {
+	display: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-frame .note-placeholder,
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-placeholder {
+	padding: 10px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe {
+	border: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor.note-airframe .note-editing-area .note-editable {
+	padding: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.popover {
+	display: none;
+	max-width: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.popover .popover-content a {
+	display: inline-block;
+	max-width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover.popover .arrow {
+	left: 20px !important;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-toolbar {
+	position: relative;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar {
+	margin: 0;
+	padding: 0 0 5px 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content > .note-btn-group,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar > .note-btn-group {
+	margin-top: 5px;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-btn-group .note-table,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-btn-group .note-table {
+	min-width: 0;
+	padding: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-btn-group .note-table .note-dimension-picker,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-btn-group .note-table .note-dimension-picker {
+	font-size: 18px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-btn-group .note-table .note-dimension-picker .note-dimension-picker-mousecatcher,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-btn-group .note-table .note-dimension-picker .note-dimension-picker-mousecatcher {
+	position: absolute !important;
+	z-index: 3;
+	width: 10em;
+	height: 10em;
+	cursor: pointer;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-btn-group .note-table .note-dimension-picker .note-dimension-picker-unhighlighted,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-btn-group .note-table .note-dimension-picker .note-dimension-picker-unhighlighted {
+	position: relative !important;
+	z-index: 1;
+	width: 5em;
+	height: 5em;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASAgMAAAAroGbEAAAACVBMVEUAAIj4+Pjp6ekKlAqjAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYAR0BKhmnaJzPAAAAG0lEQVQI12NgAAOtVatWMTCohoaGUY+EmIkEAEruEzK2J7tvAAAAAElFTkSuQmCC") repeat;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-btn-group .note-table .note-dimension-picker .note-dimension-picker-highlighted,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-btn-group .note-table .note-dimension-picker .note-dimension-picker-highlighted {
+	position: absolute !important;
+	z-index: 2;
+	width: 1em;
+	height: 1em;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASAgMAAAAroGbEAAAACVBMVEUAAIjd6vvD2f9LKLW+AAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYAR0BKwNDEVT0AAAAG0lEQVQI12NgAAOtVatWMTCohoaGUY+EmIkEAEruEzK2J7tvAAAAAElFTkSuQmCC") repeat;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style blockquote,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style pre,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style blockquote,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style pre {
+	margin: 0;
+	padding: 5px 10px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style h1,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style h2,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style h3,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style h4,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style h5,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style h6,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-style .dropdown-style p,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style h1,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style h2,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style h3,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style h4,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style h5,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style h6,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-style .dropdown-style p {
+	margin: 0;
+	padding: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color-all .note-dropdown-menu,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color-all .note-dropdown-menu {
+	min-width: 337px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .dropdown-toggle,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .dropdown-toggle {
+	width: 20px;
+	padding-left: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette {
+	display: inline-block;
+	margin: 0;
+	width: 160px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette:first-child,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette:first-child {
+	margin: 0 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-palette-title,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-palette-title {
+	font-size: 12px;
+	margin: 2px 7px;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-color-reset,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-color-select,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-color-reset,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-color-select {
+	font-size: 11px;
+	margin: 3px;
+	padding: 0 3px;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-color-reset:hover,
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-color-select:hover,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-color-reset:hover,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-color-select:hover {
+	background: #eee;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-color-row,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-color-row {
+	height: 20px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-color-select-btn,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-color-select-btn {
+	display: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color .note-dropdown-menu .note-palette .note-holder-custom .note-color-btn,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color .note-dropdown-menu .note-palette .note-holder-custom .note-color-btn {
+	border: 1px solid #eee;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-para .note-dropdown-menu,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-para .note-dropdown-menu {
+	min-width: 228px;
+	padding: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-para .note-dropdown-menu > div + div,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-para .note-dropdown-menu > div + div {
+	margin-left: 5px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-dropdown-menu,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-dropdown-menu {
+	min-width: 160px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-dropdown-menu.right,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-dropdown-menu.right {
+	right: 0;
+	left: auto;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-dropdown-menu.right::before,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-dropdown-menu.right::before {
+	right: 9px;
+	left: auto !important;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-dropdown-menu.right::after,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-dropdown-menu.right::after {
+	right: 10px;
+	left: auto !important;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-dropdown-menu.note-check a i,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-dropdown-menu.note-check a i {
+	color: #00bfff;
+	visibility: hidden;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-dropdown-menu.note-check a.checked i,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-dropdown-menu.note-check a.checked i {
+	visibility: visible;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-fontsize-10,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-fontsize-10 {
+	font-size: 10px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color-palette,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color-palette {
+	line-height: 1;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color-palette div .note-color-btn,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color-palette div .note-color-btn {
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-popover .popover-content .note-color-palette div .note-color-btn:hover,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-toolbar .note-color-palette div .note-color-btn:hover {
+	transform: scale(1.2);
+	transition: all 0.2s;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .modal-dialog {
+	outline: 0;
+	border-radius: 5px;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .form-group {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-modal-form {
+	margin: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-image-dialog .note-dropzone {
+	min-height: 100px;
+	font-size: 30px;
+	line-height: 4;
+	color: #d3d3d3;
+	text-align: center;
+	border: 4px dashed #d3d3d3;
+	margin-bottom: 10px;
+}
+
+@-moz-document url-prefix() {
+	#lfb_bootstraped.lfb_bootstraped .note-modal .note-image-input {
+		height: auto;
+	}
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-placeholder {
+	position: absolute;
+	display: none;
+	color: gray;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection {
+	position: absolute;
+	display: none;
+	border: 1px solid #000;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection > div {
+	position: absolute;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-selection-bg {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	-webkit-opacity: .3;
+	-khtml-opacity: .3;
+	-moz-opacity: .3;
+	opacity: .3;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+	filter: alpha(opacity=30);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-handle,
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-sizing,
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-holder {
+	width: 7px;
+	height: 7px;
+	border: 1px solid #000;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-sizing {
+	background-color: #000;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-nw {
+	top: -5px;
+	left: -5px;
+	border-right: none;
+	border-bottom: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-ne {
+	top: -5px;
+	right: -5px;
+	border-bottom: none;
+	border-left: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-sw {
+	bottom: -5px;
+	left: -5px;
+	border-top: none;
+	border-right: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-se {
+	right: -5px;
+	bottom: -5px;
+	cursor: se-resize;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-se.note-control-holder {
+	cursor: default;
+	border-top: none;
+	border-left: none;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-handle .note-control-selection .note-control-selection-info {
+	right: 0;
+	bottom: 0;
+	padding: 5px;
+	margin: 5px;
+	color: #fff;
+	background-color: #000;
+	font-size: 12px;
+	border-radius: 5px;
+	-webkit-opacity: .7;
+	-khtml-opacity: .7;
+	-moz-opacity: .7;
+	opacity: .7;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+	filter: alpha(opacity=70);
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-hint-popover {
+	min-width: 100px;
+	padding: 2px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-hint-popover .popover-content {
+	padding: 3px;
+	max-height: 150px;
+	overflow: auto;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-hint-popover .popover-content .note-hint-group .note-hint-item {
+	display: block !important;
+	padding: 3px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-hint-popover .popover-content .note-hint-group .note-hint-item.active,
+#lfb_bootstraped.lfb_bootstraped .note-hint-popover .popover-content .note-hint-group .note-hint-item:hover {
+	display: block;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #fff;
+	white-space: nowrap;
+	text-decoration: none;
+	background-color: #428bca;
+	outline: 0;
+	cursor: pointer;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable table td,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable table th {
+	border: 1px solid #ececec;
+	padding: 5px 3px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable a {
+	background-color: inherit;
+	text-decoration: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	color: #337ab7;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable a:hover,
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable a:focus {
+	color: #23527c;
+	text-decoration: underline;
+	outline: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-editor .note-editing-area .note-editable figure {
+	margin: 0;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-modal-body label {
+	margin-bottom: 2px;
+	padding: 2px 5px;
+	display: inline-block;
+}
+
+#lfb_bootstraped.lfb_bootstraped .note-modal .note-modal-body .help-list-item:hover {
+	background-color: #e0e0e0;
+}
+
+@-moz-document url-prefix() {
+	#lfb_bootstraped.lfb_bootstraped .note-modal .note-image-input {
+		height: auto;
+	}
+}
+
+#lfb_bootstraped.lfb_bootstraped .help-list-item label {
+	margin-bottom: 5px;
+	display: inline-block;
+}

@@ -1,0 +1,117 @@
+{
+    "templates": [
+        
+        {
+            "template_name": "SEOWP_Inner Page: Instant Advertising Services Quote",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_instant_advertising_services_quote.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner page: Pricing Page",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_pricing_page.json"
+        },
+								        {
+            "template_name": "Case Studies Section",
+            "template_type": "fresh",
+            "template_file": "fresh_case_studies_section.json"
+        },
+								        {
+            "template_name": "Tell us about your project - Title section",
+            "template_type": "fresh",
+            "template_file": "fresh_tell_us_about_your_project_title_section.json"
+        },
+								        {
+            "template_name": "Tell us about your project - Form section",
+            "template_type": "fresh",
+            "template_file": "fresh_tell_us_about_your_project_form_section.json"
+        },
+								        {
+            "template_name": "Tell us about your project - Testimonial section",
+            "template_type": "fresh",
+            "template_file": "fresh_tell_us_about_your_project_testimonial_section.json"
+        },
+										        {
+            "template_name": "Footer part",
+            "template_type": "fresh",
+            "template_file": "fresh_footer_part.json"
+        },
+										        {
+            "template_name": "SEOWP_Services: Company online presence analysis and audit",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_company_online_presence_analysis_and_audit.json"
+        },
+										        {
+            "template_name": "SEOWP_Inner Page: Instant SEO Services Quote",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_instant_seo_services_quote.json"
+        },
+        {
+            "template_name": "logo slider section",
+            "template_type": "flat",
+            "template_file": "flat_logo_slider_section.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Pay_Per_Click_Management",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_pay_per_click_management.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Repulation_Management",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_repulation_management.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner page: About-1",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_about_1.json"
+        },
+														        {
+            "template_name": "Avatar section",
+            "template_type": "flat",
+            "template_file": "flat_avatar_section.json"
+        },
+														        {
+            "template_name": "Avatars Blackbg Section",
+            "template_type": "flat",
+            "template_file": "flat_avatars_blackbg_section.json"
+        },
+														        {
+            "template_name": "Our Case Studies Section",
+            "template_type": "flat",
+            "template_file": "flat_our_case_studies_section.json"
+        },
+																        {
+            "template_name": "Tell us about your project section(title)",
+            "template_type": "flat",
+            "template_file": "flat_tell_us_about_your_project_section_title.json"
+        },
+																        {
+            "template_name": "Hover Buttons together(section)",
+            "template_type": "flat",
+            "template_file": "flat_hover_buttons_together_section.json"
+        },
+																        {
+            "template_name": "Milestones boxes section",
+            "template_type": "flat",
+            "template_file": "flat_milestones_boxes_section.json"
+        },
+																        {
+            "template_name": "services-affiliate-management",
+            "template_type": "flat",
+            "template_file": "flat_services_affiliate_management.json"
+        },
+																        {
+            "template_name": "Order Digital Marketing Services",
+            "template_type": "flat",
+            "template_file": "flat_order_digital_marketing_services.json"
+        },
+																	        {
+            "template_name": "Tell us about your project section(form)",
+            "template_type": "flat",
+            "template_file": "flat_tell_us_about_your_project_section_form.json"
+																			}
+
+
+    ]     
+}

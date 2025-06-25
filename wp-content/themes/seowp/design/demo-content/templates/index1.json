@@ -1,0 +1,106 @@
+{
+    "templates": [
+		
+		        {
+            "template_name": "SEOWP_Sample Page",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_sample_page.json"
+        },
+				        {
+            "template_name": "SEOWP_Privacy Policy",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_privacy_policy.json"
+        },
+				        {
+            "template_name": "SEOWP_Section: Marketing Resources",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_marketing_resources.json"
+        },
+				        {
+            "template_name": "SEOWP_Inner page: About",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_about.json"
+        },
+				        {
+            "template_name": "SEOWP_Services: Local SEO",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_local_seo.json"
+        },
+				        {
+            "template_name": "Inner Page: Order Digital Marketing Services",
+            "template_type": "fresh",
+            "template_file": "fresh_inner_page_order_digital_marketing_services.json"
+        },
+				        {
+            "template_name": "SEOWP_Blog-Grid-3-Columns",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_blog_grid_3_columns.json"
+        },
+						        {
+            "template_name": "SEOWP_Inner page: Request a free SEO analysis",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_request_a_free_seo_analysis.json"
+        },
+						        {
+            "template_name": "SEOWP_Section: Case Studies",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_case_studies.json"
+        },
+						        {
+            "template_name": "SEOWP_Section: Blog",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_blog.json"
+        },
+        {
+            "template_name": "SEOWP_Home page \u2014 Front Page",
+            "template_type": "flat",
+            "template_file": "flat_seowp_home_page_u2014_front_page.json"
+        },
+										        {
+            "template_name": "SEOWP_Inner page: Contact us",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_contact_us.json"
+        },
+												        {
+            "template_name": "SEOWP_Inner page: Request a free SEO analysis",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_request_a_free_seo_analysis.json"
+        },
+												        {
+            "template_name": "SEOWP_Inner page: Services",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_services.json"
+        },
+												        {
+            "template_name": "SEOWP_Sample Page",
+            "template_type": "flat",
+            "template_file": "flat_seowp_sample_page.json"
+        },
+												        {
+            "template_name": "SEOWP_Privacy Policy \u2014 Draft, Privacy Policy Page",
+            "template_type": "flat",
+            "template_file": "flat_seowp_privacy_policy_u2014_draft_privacy_policy_page.json"
+        },
+												        {
+            "template_name": "SEOWP_Section: Case Studies",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_case_studies.json"
+        },
+												        {
+            "template_name": "SEOWP_Section: Clients",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_clients.json"
+        },
+												        {
+            "template_name": "SEOWP_Section: Marketing Resources",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_marketing_resources.json"
+        },
+        {
+            "template_name": "SEOWP_Section: Testimonials",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_testimonials.json"
+        }	     
+          
+    ]
+}

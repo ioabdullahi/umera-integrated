@@ -1,0 +1,4027 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lfb\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "E&P Form Builder"
+msgstr ""
+
+msgid "Estimation & Payment Forms"
+msgstr ""
+
+msgid "Return to the forms list"
+msgstr ""
+
+msgid "Orders List"
+msgstr ""
+
+msgid "Reference"
+msgstr ""
+
+msgid "Select a form"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Forms List"
+msgstr ""
+
+msgid "Form ID"
+msgstr ""
+
+msgid "Add a new Form"
+msgstr ""
+
+msgid "Import forms"
+msgstr ""
+
+msgid "Export all forms"
+msgstr ""
+
+msgid "Form title"
+msgstr ""
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Edit this form"
+msgstr ""
+
+msgid "Preview this form"
+msgstr ""
+
+msgid "View orders of this form"
+msgstr ""
+
+msgid "Duplicate this form"
+msgstr ""
+
+msgid "Duplicate this step"
+msgstr ""
+
+msgid "Delete this form"
+msgstr ""
+
+msgid "My Step"
+msgstr ""
+
+msgid "Add a step"
+msgstr ""
+
+msgid "View the form"
+msgstr ""
+
+msgid "Remove all steps"
+msgstr ""
+
+msgid "Steps manager"
+msgstr ""
+
+msgid "Are you sure you want to delete all steps ?"
+msgstr ""
+
+msgid "Form settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Last Step"
+msgstr ""
+
+msgid "Design"
+msgstr ""
+
+msgid "Texts"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "The form title"
+msgstr ""
+
+msgid "Selection required"
+msgstr ""
+
+msgid "Something like \"You need to select an item to continue\""
+msgstr ""
+
+msgid "Button \"next step\""
+msgstr ""
+
+msgid "Something like \"NEXT STEP\""
+msgstr ""
+
+msgid "Link \"previous step\""
+msgstr ""
+
+msgid "Something like \"return to previous step\""
+msgstr ""
+
+msgid "Introduction"
+msgstr ""
+
+msgid "Enable Introduction"
+msgstr ""
+
+msgid "Is Introduction enabled ? "
+msgstr ""
+
+msgid "Introduction title"
+msgstr ""
+
+msgid "Something like \"HOW MUCH TO MAKE MY WEBSITE ?\""
+msgstr ""
+
+msgid "Introduction text"
+msgstr ""
+
+msgid "Something like \"Estimate the cost of a website easily using this awesome tool.\""
+msgstr ""
+
+msgid "Introduction button"
+msgstr ""
+
+msgid "Something like \"GET STARTED\""
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Order reference prefix"
+msgstr ""
+
+msgid "Enter a prefix for the order reference"
+msgstr ""
+
+msgid "Initial price"
+msgstr ""
+
+msgid "Starting price"
+msgstr ""
+
+msgid "Maximum progress bar price"
+msgstr ""
+
+msgid "Leave blank for automatic calculation"
+msgstr ""
+
+msgid "Hide initial price in the progress bar ? "
+msgstr ""
+
+msgid "Display or hide the initial price from progress bar"
+msgstr ""
+
+msgid "Progress bar shows"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Step"
+msgstr ""
+
+msgid "The progress bar can show the price or step number"
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "$, € , £ ..."
+msgstr ""
+
+msgid "Currency Position"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Sets the currency position in the price"
+msgstr ""
+
+msgid "Animations speed"
+msgstr ""
+
+msgid "Sets the animations speed, in seconds(default : 0.5)"
+msgstr ""
+
+msgid "Quantity selection style"
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid "Field"
+msgstr ""
+
+msgid "If \"field\", tooltip will be positionned on top"
+msgstr ""
+
+msgid "Admin email"
+msgstr ""
+
+msgid "Email that will receive requests"
+msgstr ""
+
+msgid "Admin email subject"
+msgstr ""
+
+msgid "Something like \"New order from your website\""
+msgstr ""
+
+msgid "Admin email content"
+msgstr ""
+
+msgid "Variables"
+msgstr ""
+
+msgid "Selected items list"
+msgstr ""
+
+msgid "Last step form values"
+msgstr ""
+
+msgid "Order reference"
+msgstr ""
+
+msgid "Customer email"
+msgstr ""
+
+msgid "Send email to the customer"
+msgstr ""
+
+msgid "If true, the user will receive a confirmation email"
+msgstr ""
+
+msgid "Customer email subject"
+msgstr ""
+
+msgid "Something like \"Order confirmation\""
+msgstr ""
+
+msgid "Complete this field if you want to call a specific url on close . Otherwise leave it empty."
+msgstr ""
+
+msgid "Last step title"
+msgstr ""
+
+msgid "Something like \"Final cost\", \"Result\" ..."
+msgstr ""
+
+msgid "Last step text"
+msgstr ""
+
+msgid "Something like \"The final estimated price is :\""
+msgstr ""
+
+msgid "Last step button"
+msgstr ""
+
+msgid "Something like \"ORDER MY WEBSITE\""
+msgstr ""
+
+msgid "Succeed text"
+msgstr ""
+
+msgid "Something like \"Thanks, we will contact you soon\""
+msgstr ""
+
+msgid "Use Paypal payment"
+msgstr ""
+
+msgid "Use Stripe payment"
+msgstr ""
+
+msgid "If true, the user will be redirected to the payment page"
+msgstr ""
+
+msgid "Paypal email"
+msgstr ""
+
+msgid "Enter your paypal email"
+msgstr ""
+
+msgid "Enter your payment currency"
+msgstr ""
+
+msgid "Payment currency"
+msgstr ""
+
+msgid "Only this percentage will be paid by paypal"
+msgstr ""
+
+msgid "Only this percentage will be paid by stripe"
+msgstr ""
+
+msgid "Percentage of the total price to pay"
+msgstr ""
+
+msgid "Gravity Form"
+msgstr ""
+
+msgid "Assign a Gravity Form to the last step"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Woo Commerce"
+msgstr ""
+
+msgid "Add selected items to cart"
+msgstr ""
+
+msgid "If true, all items with price must beings products of the woo catalog"
+msgstr ""
+
+msgid "Fields of the final step"
+msgstr ""
+
+msgid "Add a field"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Background color"
+msgstr ""
+
+msgid "ex : #ecf0f1"
+msgstr ""
+
+msgid "Main color"
+msgstr ""
+
+msgid "ex : #1abc9c"
+msgstr ""
+
+msgid "Secondary color"
+msgstr ""
+
+msgid "ex : #34495e"
+msgstr ""
+
+msgid "Texts color"
+msgstr ""
+
+msgid "ex : #bdc3c7"
+msgstr ""
+
+msgid "Pictures size"
+msgstr "Images size"
+
+msgid "Enter your custom css code here"
+msgstr ""
+
+msgid "Custom CSS rules"
+msgstr ""
+
+msgid "Enter a size in pixels(ex : 64)"
+msgstr ""
+
+msgid "Enter a size in pixels"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "This is the field label"
+msgstr ""
+
+msgid "Fields take place according to the order"
+msgstr ""
+
+msgid "Type of field"
+msgstr ""
+
+msgid "Choose a type"
+msgstr ""
+
+msgid "Validation"
+msgstr ""
+
+msgid "Select a validation method"
+msgstr ""
+
+msgid "Toggle or displayed ? "
+msgstr ""
+
+msgid "Edit a link"
+msgstr ""
+
+msgid "Link conditions"
+msgstr ""
+
+msgid "Add a condition"
+msgstr ""
+
+msgid "Element"
+msgstr ""
+
+msgid "Condition"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Redirect to a page"
+msgstr ""
+
+msgid "Text field"
+msgstr ""
+
+msgid "Select field"
+msgstr ""
+
+msgid "Dropdown"
+msgstr ""
+
+msgid "Number field"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Button"
+msgstr ""
+
+msgid "Must be filled"
+msgstr ""
+
+msgid "Use decimals"
+msgstr ""
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Maximum"
+msgstr ""
+
+msgid "Edit a step"
+msgstr ""
+
+msgid "Step options"
+msgstr ""
+
+msgid "This is the step name"
+msgstr ""
+
+msgid "If true, the user must select at least one item to continue"
+msgstr ""
+
+msgid "Items List"
+msgstr ""
+
+msgid "Add a new Item"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Edit an item"
+msgstr ""
+
+msgid "Item options"
+msgstr ""
+
+msgid "This is the item name"
+msgstr ""
+
+msgid "Items take place according to the order defined"
+msgstr ""
+
+msgid "Small description"
+msgstr ""
+
+msgid "Item small description. You can leave it empty."
+msgstr ""
+
+msgid "Radio group name"
+msgstr ""
+
+msgid "Only one of the items of a same group can be selected"
+msgstr ""
+
+msgid "Picture"
+msgstr ""
+
+msgid "Checkbox"
+msgstr ""
+
+msgid "Options of select field"
+msgstr ""
+
+msgid "Add a new option"
+msgstr ""
+
+msgid "Option value"
+msgstr ""
+
+msgid "Option price"
+msgstr ""
+
+msgid "File field"
+msgstr ""
+
+msgid "Select a type of item"
+msgstr ""
+
+msgid "Upload Image"
+msgstr ""
+
+msgid "Select a picture"
+msgstr ""
+
+msgid "Tint image ?"
+msgstr ""
+
+msgid "Automatically fill the picture with the main color"
+msgstr "Automatically fill the image with the main color"
+
+msgid "Display price in title ?"
+msgstr ""
+
+msgid "Shows the price in the item title"
+msgstr ""
+
+msgid "Use column or row ?"
+msgstr ""
+
+msgid "Column"
+msgstr ""
+
+msgid "Row"
+msgstr ""
+
+msgid "The item will be displayed as column or full row"
+msgstr ""
+
+msgid "Woocommerce product"
+msgstr ""
+
+msgid "You can select a product from your catalog"
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Sets the item price"
+msgstr ""
+
+msgid "Calculation"
+msgstr ""
+
+msgid "Operator"
+msgstr ""
+
+msgid "+"
+msgstr ""
+
+msgid "-"
+msgstr ""
+
+msgid "x"
+msgstr ""
+
+msgid "/"
+msgstr ""
+
+msgid "Is selected ?"
+msgstr ""
+
+msgid "A facultative description"
+msgstr ""
+
+msgid "Is the item selected by default ?"
+msgstr ""
+
+msgid "Is required ?"
+msgstr ""
+
+msgid "Is the item required to continue ?"
+msgstr ""
+
+msgid "Enable quantity choice ?"
+msgstr ""
+
+msgid "Can the user select a quantity for this item ?"
+msgstr ""
+
+msgid "Max quantity"
+msgstr ""
+
+msgid "Sets the maximum quantity that can be selected"
+msgstr ""
+
+msgid "Apply reductions on quantities ?"
+msgstr ""
+
+msgid "If quantity >= than"
+msgstr ""
+
+msgid "Item price becomes"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "New item price"
+msgstr ""
+
+msgid "Add reduction"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Integrate the form in a page"
+msgstr ""
+
+msgid "To use in fullscreen"
+msgstr ""
+
+msgid "To use as popup"
+msgstr ""
+
+msgid "Import data"
+msgstr ""
+
+msgid "Be careful : all existing forms and steps will be erased importing new data."
+msgstr ""
+
+msgid "Select the .zip data file"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Export data"
+msgstr ""
+
+msgid "Download the exported data"
+msgstr ""
+
+msgid "View this order"
+msgstr ""
+
+msgid "Delete this order"
+msgstr ""
+
+msgid "Click the flag icon to set this step at first step"
+msgstr ""
+
+msgid "Start a link to another step"
+msgstr ""
+
+msgid "Remove this step"
+msgstr ""
+
+msgid "Edit this step"
+msgstr ""
+
+msgid "Is selected"
+msgstr ""
+
+msgid "Is unselected"
+msgstr ""
+
+msgid "Is superior to"
+msgstr ""
+
+msgid "Is inferior to"
+msgstr ""
+
+msgid "Is equal to"
+msgstr ""
+
+msgid "Quantity selected is superior to"
+msgstr ""
+
+msgid "Quantity selected is inferior to"
+msgstr ""
+
+msgid "Quantity is equal to"
+msgstr ""
+
+msgid "Total price"
+msgstr ""
+
+msgid "Is Filled"
+msgstr ""
+
+msgid "An error occurred during the exportation. Please verify that your server supports the ZipArchive php library "
+msgstr ""
+
+msgid "An error occurred during the importation. Please verify that your server supports the ZipArchive php library "
+msgstr ""
+
+msgid "An error occurred during the transfer"
+msgstr ""
+
+msgid "Set on true to hide the price on the last step."
+msgstr ""
+
+msgid "Hide the final price ?"
+msgstr ""
+
+msgid "Hide tooltips on touch devices"
+msgstr ""
+
+msgid "Sets the minimum quantity that can be selected"
+msgstr ""
+
+msgid "Min quantity"
+msgstr ""
+
+msgid "Enable legal notice ?"
+msgstr ""
+
+msgid "If true, the user must accept the notice before submitting the form"
+msgstr ""
+
+msgid "Legal notice"
+msgstr ""
+
+msgid "Sentence of acceptance"
+msgstr ""
+
+msgid "Something like \"I certify I completely read and I accept the legal notice by validating this form\""
+msgstr ""
+
+msgid "Content of the legal notice"
+msgstr ""
+
+msgid "Write your legal notice here"
+msgstr ""
+
+msgid "If you fill an url, it will be opened in a new tab on selection"
+msgstr ""
+
+msgid "Open url on click ?"
+msgstr ""
+
+msgid "Date picker"
+msgstr ""
+
+msgid "Select your language code"
+msgstr ""
+
+msgid "Datepicker language"
+msgstr ""
+
+msgid "Decimals separator"
+msgstr ""
+
+msgid "Thousands separator"
+msgstr ""
+
+msgid "Enter a separator or leave empty"
+msgstr ""
+
+msgid "Show a summary ?"
+msgstr ""
+
+msgid "Do you want to show a summary on last step ?"
+msgstr ""
+
+msgid "Summary title"
+msgstr ""
+
+msgid "Something like \"Summary\""
+msgstr ""
+
+msgid "Label \"Description\""
+msgstr ""
+
+msgid "Something like \"Description\""
+msgstr ""
+
+msgid "Label \"Quantity\""
+msgstr ""
+
+msgid "Something like \"Quantity\""
+msgstr ""
+
+msgid "Label \"Price\""
+msgstr ""
+
+msgid "Something like \"Price\""
+msgstr ""
+
+msgid "Label \"Total\""
+msgstr ""
+
+msgid "Something like \"Total :\""
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+msgid "Label \"Information\""
+msgstr ""
+
+msgid "Something like \"Information :\""
+msgstr ""
+
+msgid "Show in email/summary"
+msgstr ""
+
+msgid "This item will be displayed in the summary if the user selects it"
+msgstr ""
+
+msgid "This step will be displayed in the summary"
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Payment"
+msgstr ""
+
+msgid "Does the price corresponds to a subscription ?"
+msgstr ""
+
+msgid "Is subscription ?"
+msgstr ""
+
+msgid "Text after price"
+msgstr ""
+
+msgid "Something like \"/month\""
+msgstr ""
+
+msgid "Frequency of subscription"
+msgstr ""
+
+msgid "Payment will be renewed every ... ?"
+msgstr ""
+
+msgid "The subscription ends after how many payments ?"
+msgstr ""
+
+msgid "How many payments ?"
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""
+
+msgid "day(s)"
+msgstr ""
+
+msgid "week(s)"
+msgstr ""
+
+msgid "month(s)"
+msgstr ""
+
+msgid "year(s)"
+msgstr ""
+
+msgid "Use paypal IPN"
+msgstr ""
+
+msgid "IPN requires a PayPal Business or Premier account and IPN must be configured on that account.<br/>See the <a %1$s>PayPal IPN Integration Guide</a> to learn how to set up IPN.<br/>The IPN listener URL you will need is : %2$s"
+msgstr ""
+
+msgid "Use paypal Sandbox"
+msgstr ""
+
+msgid "Enable this field only to test with fake payments"
+msgstr ""
+
+msgid "Toggle"
+msgstr ""
+
+msgid "Displayed"
+msgstr ""
+
+msgid "Export .csv"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Hide quantity column"
+msgstr ""
+
+msgid "Do you want to hide the column of quantities ?"
+msgstr ""
+
+msgid "Hide zero prices"
+msgstr ""
+
+msgid "Do you want to hide zero prices ?"
+msgstr ""
+
+msgid "Rich Text"
+msgstr ""
+
+msgid "Paypal currency"
+msgstr ""
+
+msgid "Discount coupons"
+msgstr ""
+
+msgid "Coupon code"
+msgstr ""
+
+msgid "Add a new coupon"
+msgstr ""
+
+msgid "Remove all coupons"
+msgstr ""
+
+msgid "Max uses"
+msgstr ""
+
+msgid "Number of uses"
+msgstr ""
+
+msgid "Reduction"
+msgstr ""
+
+msgid "Set 0 for an infinite use"
+msgstr ""
+
+msgid "Edit a coupon"
+msgstr ""
+
+msgid "If you enable this option, a discount coupon field will be displayed at end of the form"
+msgstr ""
+
+msgid "Label of the coupon field"
+msgstr ""
+
+msgid "Hide all prices"
+msgstr ""
+
+msgid "Do you want to hide all prices ?"
+msgstr ""
+
+msgid "Automatically go to the next step when selecting if only one product is selectable"
+msgstr ""
+
+msgid "Apply the gray effect on pictures on unselected items ?"
+msgstr ""
+
+msgid "Color picker"
+msgstr ""
+
+msgid "Mailchimp list"
+msgstr ""
+
+msgid "Mailchimp API key"
+msgstr ""
+
+msgid "Send contact to Mailchimp"
+msgstr ""
+
+msgid "Mailpoet list"
+msgstr ""
+
+msgid "Send contact to MailPoet"
+msgstr ""
+
+msgid "Send contact to GetResponse"
+msgstr ""
+
+msgid "GetResponse API key"
+msgstr ""
+
+msgid "GetResponse list"
+msgstr ""
+
+msgid "Millions separator"
+msgstr ""
+
+msgid "Is hidden ?"
+msgstr ""
+
+msgid "Item will be used in the calculation, but will not be displayed"
+msgstr ""
+
+msgid "Min size"
+msgstr ""
+
+msgid "Max size"
+msgstr ""
+
+msgid "Fill this field to limit the minimum number of characters"
+msgstr ""
+
+msgid "Fill this field to limit the maximum number of characters"
+msgstr ""
+
+msgid "Isn't a part of the subscription"
+msgstr ""
+
+msgid "If checked, the item price will not be a part of the subscription price"
+msgstr ""
+
+msgid "Ajax navigation support"
+msgstr ""
+
+msgid "Activate this option if your theme uses ajax navigation to display pages"
+msgstr ""
+
+msgid "Label of files fields"
+msgstr ""
+
+msgid "Something like \"Drop files here to upload\""
+msgstr ""
+
+msgid "Size error for files fields"
+msgstr ""
+
+msgid "Something like \"File is too big (max size: {{maxFilesize}}MB)\""
+msgstr ""
+
+msgid "File type error for files fields"
+msgstr ""
+
+msgid "Something like \"Invalid file type\""
+msgstr ""
+
+msgid "Max files"
+msgstr ""
+
+msgid "Maximum number of files the user can upload"
+msgstr ""
+
+msgid "Allowed files"
+msgstr ""
+
+msgid "Enter the allowed extensions separated by commas"
+msgstr ""
+
+msgid "All conditions must be filled"
+msgstr ""
+
+msgid "One of the conditions must be filled"
+msgstr ""
+
+msgid "Use calculation ?"
+msgstr ""
+
+msgid "If checked, the price will be replaced by a calculation"
+msgstr ""
+
+msgid "Use the buttons to easily create your calculation"
+msgstr ""
+
+msgid "Add a value"
+msgstr ""
+
+msgid "Select an item"
+msgstr ""
+
+msgid "Select an attribute"
+msgstr ""
+
+msgid "Is price superior to"
+msgstr ""
+
+msgid "Is price inferior to"
+msgstr ""
+
+msgid "Is price equal to"
+msgstr ""
+
+msgid "Example of calculation"
+msgstr ""
+
+msgid "Here, the default price of the item will be $10. If the item #3 is selected, the price of the current item will be the half of the item #3 price multiplied by the selected quantity of the item #1."
+msgstr ""
+
+msgid "Type of information"
+msgstr ""
+
+msgid "It will allow the plugin to recover this information"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Zip code"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Confirmation by email required"
+msgstr ""
+
+msgid "Max items per row"
+msgstr ""
+
+msgid "Leave 0 to fill the full width"
+msgstr ""
+
+msgid "Use Google font ?"
+msgstr ""
+
+msgid "If disabled, the default theme font will be used"
+msgstr ""
+
+msgid "Google font name"
+msgstr ""
+
+msgid "ex : Lato"
+msgstr ""
+
+msgid "See Google fonts"
+msgstr ""
+
+msgid "Export as CSV"
+msgstr ""
+
+msgid "Form"
+msgstr ""
+
+msgid "Total Subscription"
+msgstr ""
+
+msgid "Google Analytics ID"
+msgstr ""
+
+msgid "By filling this field, you can track user actions in your form"
+msgstr ""
+
+msgid "Total quantity"
+msgstr ""
+
+msgid "Show it depending on conditions"
+msgstr ""
+
+msgid "This item will be displayed only if the conditions are filled"
+msgstr ""
+
+msgid "This step will be displayed only if the conditions are filled"
+msgstr ""
+
+msgid "Edit conditions"
+msgstr ""
+
+msgid "Conditions"
+msgstr ""
+
+msgid "Send the order as pdf"
+msgstr ""
+
+msgid "A pdf file will be generated and sent as attachment"
+msgstr ""
+
+msgid "Use payment only if selected"
+msgstr ""
+
+msgid "Payment will be used only if this item is selected"
+msgstr ""
+
+msgid "Send contact as soon the email field is filled ?"
+msgstr ""
+
+msgid "If checked, the contact will be send at end of the step containing the email field"
+msgstr ""
+
+msgid "Purchase code"
+msgstr ""
+
+msgid "Where can I find my purchase code ?"
+msgstr ""
+
+msgid "Enter your purchase code here"
+msgstr ""
+
+msgid "Verify"
+msgstr ""
+
+msgid "Please fill the field below with your purchase code"
+msgstr ""
+
+msgid "click here"
+msgstr ""
+
+msgid "If you need to buy a new license of this plugin"
+msgstr ""
+
+msgid "Verification of the license"
+msgstr ""
+
+msgid "The license of this plugin isn't verified"
+msgstr ""
+
+msgid "No progress bar"
+msgstr ""
+
+msgid "Show total price at bottom"
+msgstr ""
+
+msgid "Display or hide the total price at bottom of each step"
+msgstr ""
+
+msgid "Stripe secret key"
+msgstr ""
+
+msgid "Enter your stripe secret key"
+msgstr ""
+
+msgid "Stripe publishable key"
+msgstr ""
+
+msgid "Enter your stripe publishable key"
+msgstr ""
+
+msgid "Label \"Credit Card number\""
+msgstr ""
+
+msgid "Something like \"Credit Card number\""
+msgstr ""
+
+msgid "Label \"CVC\""
+msgstr ""
+
+msgid "Something like \"CVC\""
+msgstr ""
+
+msgid "Label \"Expiration date\""
+msgstr ""
+
+msgid "Something like \"Expiration date\""
+msgstr ""
+
+msgid "Stripe payment"
+msgstr ""
+
+msgid "Stripe currency"
+msgstr ""
+
+msgid "Enter your stripe currency"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "View statistics"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Years"
+msgstr ""
+
+msgid "Amount of orders"
+msgstr ""
+
+msgid "One time payments or estimates"
+msgstr ""
+
+msgid "Subscriptions"
+msgstr ""
+
+msgid "Type of chart"
+msgstr ""
+
+msgid "All years"
+msgstr ""
+
+msgid "Return to the form"
+msgstr ""
+
+msgid "View orders\"Departure addres"
+msgstr ""
+
+msgid "+ and - allow you to add or remove the price of the total price, * and / allow you to add or remove a percentage from the total price"
+msgstr ""
+
+msgid "Insert"
+msgstr ""
+
+msgid "Get the value of a field"
+msgstr ""
+
+msgid "Scroll margin"
+msgstr ""
+
+msgid "Increase this value if your theme uses a fixed header"
+msgstr ""
+
+msgid "Delay before the redirection"
+msgstr ""
+
+msgid "Enter the wanted delay in seconds"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Conditions on redirection"
+msgstr ""
+
+msgid "Activate it to create different possible redirections"
+msgstr ""
+
+msgid "Add a redirection"
+msgstr ""
+
+msgid "Add a distance"
+msgstr ""
+
+msgid "Google Maps browser key"
+msgstr ""
+
+msgid "By filling this field, you can use distance calculations"
+msgstr ""
+
+msgid "Departure address"
+msgstr ""
+
+msgid "Arrival address"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Nothing"
+msgstr ""
+
+msgid "The result will be the distance between the two addresses in"
+msgstr ""
+
+msgid "Distance calculation"
+msgstr ""
+
+msgid "Select the items containing the departure and arrival addresses"
+msgstr ""
+
+msgid "Use distance as quantity ?"
+msgstr ""
+
+msgid "Configure the distance"
+msgstr ""
+
+msgid "km"
+msgstr ""
+
+msgid "miles"
+msgstr ""
+
+msgid "Edit a redirection"
+msgstr ""
+
+msgid "Distance calculation error"
+msgstr ""
+
+msgid "Something like \"Calculating the distance could not be performed, please verify the input addresses\""
+msgstr ""
+
+msgid "Custom JS"
+msgstr ""
+
+msgid "You can paste your own js code here"
+msgstr ""
+
+msgid "The quantity of this item will be hidden in the summary"
+msgstr ""
+
+msgid "Hide quantity in summary"
+msgstr ""
+
+msgid "Hide the next step button ?"
+msgstr ""
+
+msgid "Defines the default value of this field"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Is price different than"
+msgstr ""
+
+msgid "Quantity is different than"
+msgstr ""
+
+msgid "Is different than"
+msgstr ""
+
+msgid "Hide total row"
+msgstr ""
+
+msgid "Do you want to hide the total row ?"
+msgstr ""
+
+msgid "Secondary texts color"
+msgstr ""
+
+msgid "Intro title & tooltips color"
+msgstr ""
+
+msgid "Selected switchbox circle color"
+msgstr ""
+
+msgid "Deselected switchbox circle color"
+msgstr ""
+
+msgid "ex"
+msgstr ""
+
+msgid "Maximum file size (MB)"
+msgstr ""
+
+msgid "Something like 25"
+msgstr ""
+
+msgid "Use default dropdowns"
+msgstr ""
+
+msgid "Activate this option if your select items don't work correctly"
+msgstr ""
+
+msgid "Form Designer"
+msgstr ""
+
+msgid "Activate an extension"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Disable first option selection"
+msgstr ""
+
+msgid "The first option can't be selected"
+msgstr ""
+
+msgid "Columns width"
+msgstr ""
+
+msgid "Set 0 to use automatic widths"
+msgstr ""
+
+msgid "Use discount coupons"
+msgstr ""
+
+msgid "The payment page will be displayed in the selected language"
+msgstr ""
+
+msgid "Automatic"
+msgstr ""
+
+msgid "Payment page language"
+msgstr ""
+
+msgid "See Form Designer in action"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "The license is verified"
+msgstr ""
+
+msgid "The plugin is included in your theme, there is no need to check the license"
+msgstr ""
+
+msgid "The license isn't verified, please fill your purchase code"
+msgstr ""
+
+msgid "Interval"
+msgstr ""
+
+msgid "It defines the value of each interval of the slider"
+msgstr ""
+
+msgid "Show labels inline"
+msgstr ""
+
+msgid "Activating this option, the labels will be displayed at left of the fields"
+msgstr ""
+
+msgid "Align the form to the left"
+msgstr ""
+
+msgid "It will align all elements to the left"
+msgstr ""
+
+msgid "Previous step link as button"
+msgstr ""
+
+msgid "It will show the previous step link as button"
+msgstr ""
+
+msgid "Show a price range as result"
+msgstr ""
+
+msgid "Activating this option, the result will be a price range"
+msgstr ""
+
+msgid "Price range"
+msgstr ""
+
+msgid "Defines the range applied to the total price"
+msgstr ""
+
+msgid "Label \"Between\""
+msgstr ""
+
+msgid "Something like \"between\""
+msgstr ""
+
+msgid "Label \"And\""
+msgstr ""
+
+msgid "Something like \"and\""
+msgstr ""
+
+msgid "Use reCaptcha ?"
+msgstr ""
+
+msgid "Captcha text"
+msgstr ""
+
+msgid "Hide decimals"
+msgstr ""
+
+msgid "Scroll to the top of the page on new step ?"
+msgstr ""
+
+msgid "By default, the page scrolls at the top of the form at each step. By activating this option the scroll will go to the beginning of the page"
+msgstr ""
+
+msgid "Sender name"
+msgstr ""
+
+msgid "Freely change the email sender name"
+msgstr ""
+
+msgid "Allow selection of a past date"
+msgstr ""
+
+msgid "Disable it to allow only dates from the current day"
+msgstr ""
+
+msgid "Months selection menu"
+msgstr ""
+
+msgid "It will show a dropdown allowing the user to quickly select a month"
+msgstr ""
+
+msgid "Years selection menu"
+msgstr ""
+
+msgid "It will show a dropdown allowing the user to quickly select a year"
+msgstr ""
+
+msgid "Start date"
+msgstr ""
+
+msgid "End date"
+msgstr ""
+
+msgid "Current date"
+msgstr ""
+
+msgid "Date difference"
+msgstr ""
+
+msgid "The result will be the number of days between the two selected dates"
+msgstr ""
+
+msgid "Previous step icon"
+msgstr ""
+
+msgid "Next step icon"
+msgstr ""
+
+msgid "Final button icon"
+msgstr ""
+
+msgid "Introduction button icon"
+msgstr ""
+
+msgid "Icon style of images"
+msgstr ""
+
+msgid "Circle"
+msgstr ""
+
+msgid "Zoom"
+msgstr ""
+
+msgid "Steps background color\""
+msgstr ""
+
+msgid "Fill your shortcode here"
+msgstr ""
+
+msgid "Separator"
+msgstr ""
+
+msgid "Hide the final step"
+msgstr ""
+
+msgid "Do you want to hide the final step ?"
+msgstr ""
+
+msgid "Enter your email"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Time picker"
+msgstr ""
+
+msgid "Use 12 hours time mode ?"
+msgstr ""
+
+msgid "Disable it to use 24 hours time mode on time pickers"
+msgstr ""
+
+msgid "Minimum time"
+msgstr ""
+
+msgid "Maximum time"
+msgstr ""
+
+msgid "Leave it empty to allow any selection"
+msgstr ""
+
+msgid "Define quantity by calculation"
+msgstr ""
+
+msgid "Quantity calculation"
+msgstr ""
+
+msgid "The selected quantity will be automatically defined by the custom calculation"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Easy Digital Downloads"
+msgstr ""
+
+msgid "If true, all items with price must beings products of the Easy Digital Downloads catalog"
+msgstr ""
+
+msgid "Easy Digital Product"
+msgstr ""
+
+msgid "Send by email"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Send an order"
+msgstr ""
+
+msgid "Enter the recipients emails separated by commas"
+msgstr ""
+
+msgid "Recipients"
+msgstr ""
+
+msgid "Save modifications before sending ?"
+msgstr ""
+
+msgid "Do you want to save the modifications before sending this order ?"
+msgstr ""
+
+msgid "Add a row to the summary"
+msgstr ""
+
+msgid "Add a step row to the summary"
+msgstr ""
+
+msgid "Download the order"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Characters required for validation"
+msgstr ""
+
+msgid "Fill the required characters separated by commas"
+msgstr ""
+
+msgid "Min length"
+msgstr ""
+
+msgid "Max length"
+msgstr ""
+
+msgid "Enter the minimum required length"
+msgstr ""
+
+msgid "Enter the maximum required length"
+msgstr ""
+
+msgid "Placeholder"
+msgstr ""
+
+msgid "This text will be displayed as placeholder"
+msgstr ""
+
+msgid "Form ref"
+msgstr ""
+
+msgid "Flip effect on images ?"
+msgstr ""
+
+msgid "A flip animation will be shown when an image is selected"
+msgstr ""
+
+msgid "Shining effect on buttons"
+msgstr ""
+
+msgid "It will apply a shining effect on mouse over"
+msgstr ""
+
+msgid "Layered image"
+msgstr ""
+
+msgid "Add a new layer"
+msgstr ""
+
+msgid "My new Layer"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Images size"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "This option will activate the auto-completion of the address"
+msgstr ""
+
+msgid "To use the autocomplete option, you need to activate the Google Places API Web Service from your Google API console"
+msgstr ""
+
+msgid "It defines the maximum size of this item"
+msgstr ""
+
+msgid "It defines the minimum size of this item"
+msgstr ""
+
+msgid "Max width"
+msgstr ""
+
+msgid "Max height"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "Edit the visibility conditions"
+msgstr ""
+
+msgid "Include stored orders"
+msgstr ""
+
+msgid "Include discount coupons"
+msgstr ""
+
+msgid "Introduction image"
+msgstr ""
+
+msgid "This image will be displayed above the title"
+msgstr ""
+
+msgid "Calling method of the url"
+msgstr ""
+
+msgid "New tab"
+msgstr ""
+
+msgid "Same tab"
+msgstr ""
+
+msgid "Choose if the page will be opened in a new tab or not"
+msgstr ""
+
+msgid "Call next step on click ?"
+msgstr ""
+
+msgid "The next step will be called when this item will be clicked"
+msgstr ""
+
+msgid "Don't add price to total"
+msgstr ""
+
+msgid "Open a page at end"
+msgstr ""
+
+msgid "It will return \"Invoice\" if payment has been made, or \"Quotation\" if not"
+msgstr ""
+
+msgid "Text of the payment link"
+msgstr ""
+
+msgid "Something like \"I validate this order and proceed to the payment\""
+msgstr ""
+
+msgid "Choose where the user can pay"
+msgstr ""
+
+msgid "At end of the form"
+msgstr ""
+
+msgid "From a link in the email"
+msgstr ""
+
+msgid "It will show the payment link here if the payment is placed in the email"
+msgstr ""
+
+msgid "Type of payment link in the email"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Final text for deferred payment"
+msgstr ""
+
+msgid "Modify total"
+msgstr ""
+
+msgid "Subscription price"
+msgstr ""
+
+msgid "Add payment link"
+msgstr ""
+
+msgid "A link will be added to allow the customer to pay for this order"
+msgstr ""
+
+msgid "Where does the payment take place ?"
+msgstr ""
+
+msgid "Verified payment"
+msgstr ""
+
+msgid "Download as PDF"
+msgstr ""
+
+msgid "Inverse gray effect"
+msgstr ""
+
+msgid "Image selection style"
+msgstr ""
+
+msgid "Style of fields"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Quotation"
+msgstr ""
+
+msgid "Automatic next step"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Showing page %1$s of %2$s"
+msgstr ""
+
+msgid "- filtered from %1$s documents"
+msgstr ""
+
+msgid "No documents to display"
+msgstr ""
+
+msgid "Amount to pay"
+msgstr ""
+
+msgid "Full amount"
+msgstr ""
+
+msgid "Percentage of the total price"
+msgstr ""
+
+msgid "Fixed amount"
+msgstr ""
+
+msgid "Fixed amount to pay"
+msgstr ""
+
+msgid "Only this fixed amount will be paid"
+msgstr ""
+
+msgid "Choose if the user will pay the full price or not"
+msgstr ""
+
+msgid "The prices will be displayed in the email even if they are disabled in the form"
+msgstr ""
+
+msgid "Always show all prices in the email"
+msgstr ""
+
+msgid "Stripe logo image"
+msgstr ""
+
+msgid "Select an image"
+msgstr ""
+
+msgid "Enable summary as bubble"
+msgstr ""
+
+msgid "It will show a summary that can be viewed from any step of the form"
+msgstr ""
+
+msgid "Bubble summary label"
+msgstr ""
+
+msgid "Bubble summary icon"
+msgstr ""
+
+msgid "Something like \"View selection\""
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Show summary in last step"
+msgstr ""
+
+msgid "Add numbers to the steps in the bubble summary"
+msgstr ""
+
+msgid "Hide prices from the bubble summary"
+msgstr ""
+
+msgid "Disable steps manager links animation"
+msgstr ""
+
+msgid "Activate this option if the backend encounters slowdowns"
+msgstr ""
+
+msgid "Fill this field to limit the minimum value allowed"
+msgstr ""
+
+msgid "Fill this field to limit the maximum value allowed"
+msgstr ""
+
+msgid "Style of image titles"
+msgstr ""
+
+msgid "Reset the index to 0"
+msgstr ""
+
+msgid "If checked, the value will define the selected quantity"
+msgstr ""
+
+msgid "Use value as quantity ?"
+msgstr ""
+
+msgid "Show uploaded files links"
+msgstr ""
+
+msgid "If disabled, only the names of the uploaded files will be displayed"
+msgstr ""
+
+msgid "Date of the day"
+msgstr ""
+
+msgid "Fixed range"
+msgstr ""
+
+msgid "Delete the backup"
+msgstr ""
+
+msgid "Add a button \"Save form to finish later\""
+msgstr ""
+
+msgid "Activate this option to allow the users to save their current selection to finish later"
+msgstr ""
+
+msgid "Save for later button icon"
+msgstr ""
+
+msgid "Send email automatically on last step"
+msgstr ""
+
+msgid "If there is no payment and no field on the last step, the order will be sent automatically when the user will arrive on this step"
+msgstr ""
+
+msgid "Billions separator"
+msgstr ""
+
+msgid "Admin pdf content"
+msgstr ""
+
+msgid "Customer pdf content"
+msgstr ""
+
+msgid "View calendar"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
+msgid "Edit an event"
+msgstr ""
+
+msgid "Full day"
+msgstr ""
+
+msgid "Delete this event"
+msgstr ""
+
+msgid "Are you sure you want to delete this event ?"
+msgstr ""
+
+msgid "Add a calendar"
+msgstr ""
+
+msgid "Delete this calendar"
+msgstr ""
+
+msgid "Are you sure you want to delete this calendar ?"
+msgstr ""
+
+msgid "Corresponding order"
+msgstr ""
+
+msgid "Reminders"
+msgstr ""
+
+msgid "There is no reminders yet"
+msgstr ""
+
+msgid "Add a reminder"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Notify me"
+msgstr ""
+
+msgid "before the event"
+msgstr ""
+
+msgid "Minutes"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Weeks"
+msgstr ""
+
+msgid "To allow the plugin to send the reminders, you need to configure a CRON task on your server, executed every hour, that calls this url"
+msgstr ""
+
+msgid "New event !"
+msgstr ""
+
+msgid "Date of the event"
+msgstr ""
+
+msgid "Time of the event"
+msgstr ""
+
+msgid "View calendars"
+msgstr ""
+
+msgid "Date type"
+msgstr ""
+
+msgid "Select the type of date selectable"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Date & Time"
+msgstr ""
+
+msgid "Defines the type of date selectable"
+msgstr ""
+
+msgid "Default reminders"
+msgstr ""
+
+msgid "These reminders will be automatically applied to the new events generated by orders"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Busy date"
+msgstr ""
+
+msgid "Busy dates"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Events categories"
+msgstr ""
+
+msgid "Are you sure you want to delete this category ?"
+msgstr ""
+
+msgid "Available days of week"
+msgstr ""
+
+msgid "Available hours"
+msgstr ""
+
+msgid "Available"
+msgstr ""
+
+msgid "If checked, the price of this item will not change the total price"
+msgstr ""
+
+msgid "Event duration"
+msgstr ""
+
+msgid "Set date as busy ?"
+msgstr ""
+
+msgid "Category of event"
+msgstr ""
+
+msgid "Register a new event ?"
+msgstr ""
+
+msgid "It will add a new event in the selected calendar"
+msgstr ""
+
+msgid "Event title"
+msgstr ""
+
+msgid "New event"
+msgstr ""
+
+msgid "An event will take place on [date], at [time]"
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "Add a category"
+msgstr ""
+
+msgid "Use as start date of a date range"
+msgstr ""
+
+msgid "Activate this option then select the datepicker that defines the end date to use as date range"
+msgstr ""
+
+msgid "Datepicker that defines the end date"
+msgstr ""
+
+msgid "Select the datepicker that defines the end date of the date range"
+msgstr ""
+
+msgid "This option sets the speed of the form animations"
+msgstr ""
+
+msgid "Immediate"
+msgstr ""
+
+msgid "Very fast"
+msgstr ""
+
+msgid "Fast"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Slow"
+msgstr ""
+
+msgid "Very slow"
+msgstr ""
+
+msgid "Disable minutes"
+msgstr ""
+
+msgid "Delete this step"
+msgstr ""
+
+msgid "Are you sure you want to delete this step ?"
+msgstr ""
+
+msgid "Delete the selection"
+msgstr ""
+
+msgid "Export the selection"
+msgstr ""
+
+msgid "Main title html tag"
+msgstr ""
+
+msgid "Step titles html tag"
+msgstr ""
+
+msgid "Are you sure you want to delete this order ?"
+msgstr ""
+
+msgid "Delete all orders of this customer ?"
+msgstr ""
+
+msgid "All the orders that have the same customer email will be deleted"
+msgstr ""
+
+msgid "GDPR compliance"
+msgstr ""
+
+msgid "Allow users to manage their data ?"
+msgstr ""
+
+msgid "A password will be generated and a link will be added at end of the customer's email to allow him to download his data, as well as giving him the possibility to make a deletion or modification request"
+msgstr ""
+
+msgid "Download button text"
+msgstr ""
+
+msgid "Deletion button text"
+msgstr ""
+
+msgid "Logout button text"
+msgstr ""
+
+msgid "Warning text regarding data deletion"
+msgstr ""
+
+msgid "Url to the data management page"
+msgstr ""
+
+msgid "The customer's password"
+msgstr ""
+
+msgid "Text to show at bottom of the customer email"
+msgstr ""
+
+msgid "These global settings are common to all forms"
+msgstr ""
+
+msgid "These texts will be used on the page that allows the customer to manage his informations"
+msgstr ""
+
+msgid "Edition button text"
+msgstr ""
+
+msgid "Data management page settings"
+msgstr ""
+
+msgid "Edit GDPR settings"
+msgstr ""
+
+msgid "Data modification request confirmation"
+msgstr ""
+
+msgid "Subject of the modification request email"
+msgstr ""
+
+msgid "Subject of the deletion request email"
+msgstr ""
+
+msgid "Label for modification"
+msgstr ""
+
+msgid "Label \"Your password\""
+msgstr ""
+
+msgid "Label \"Your email\""
+msgstr ""
+
+msgid "Content of the password recovery email"
+msgstr ""
+
+msgid "Subject of the password recovery email"
+msgstr ""
+
+msgid "Password sent text"
+msgstr ""
+
+msgid "Password recovery link text"
+msgstr ""
+
+msgid "If the GDPR option is activated, it will show the link to the data management page"
+msgstr ""
+
+msgid "Every website that uses this plugin needs a legal license"
+msgstr ""
+
+msgid "To find more information about Envato licenses"
+msgstr ""
+
+msgid "1 license = 1 website"
+msgstr ""
+
+msgid "Encrypt data in the database"
+msgstr ""
+
+msgid "Don't use payment if selected"
+msgstr ""
+
+msgid "Payment will be not be used if this item is selected"
+msgstr ""
+
+msgid "All the existing products in the cart will be removed before adding the selected ones"
+msgstr ""
+
+msgid "Empty cart before adding products"
+msgstr ""
+
+msgid "Tooltip text"
+msgstr ""
+
+msgid "A facultative tooltip"
+msgstr ""
+
+msgid "Send as GET variable"
+msgstr ""
+
+msgid "The value of this item will be sent as variable to the final redirection page"
+msgstr ""
+
+msgid "The prices or values of the selected items will be sent as GET variables to the target page"
+msgstr ""
+
+msgid "Send values as GET variables"
+msgstr ""
+
+msgid "Add this option"
+msgstr ""
+
+msgid "Variable name"
+msgstr ""
+
+msgid "Price mode"
+msgstr ""
+
+msgid "Single cost"
+msgstr ""
+
+msgid "Subscription cost"
+msgstr ""
+
+msgid "Defines if the price of this item is a part of the subscription or not"
+msgstr ""
+
+msgid "Use subscription ?"
+msgstr ""
+
+msgid "Enable this option to be able to give a recurring price to some items"
+msgstr ""
+
+msgid "The text displayed on the button"
+msgstr ""
+
+msgid "Button text"
+msgstr ""
+
+msgid "Image with button"
+msgstr ""
+
+msgid "Zapier"
+msgstr ""
+
+msgid "Webhook URL"
+msgstr ""
+
+msgid "Create a new webhook from your Zapier dashboard then fill its URL here"
+msgstr ""
+
+msgid "The prices and values of the selected items will be sent to the defined webhook"
+msgstr ""
+
+msgid "Send values to Zapier"
+msgstr ""
+
+msgid "Disable gray effect"
+msgstr ""
+
+msgid "It will remove the grey tint when an image is selected"
+msgstr ""
+
+msgid "Button for Paypal payment"
+msgstr ""
+
+msgid "Button for Stripe payment"
+msgstr ""
+
+msgid "Show items descriptions"
+msgstr ""
+
+msgid "Do you want to show the descriptions under the item titles ?"
+msgstr ""
+
+msgid "If this option is enabled, the names of the products in the woo cart will be the titles defined in the form"
+msgstr ""
+
+msgid "Show items titles in the cart"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Hide price in summary ?"
+msgstr ""
+
+msgid "The price of this item will be hidden in the summary"
+msgstr ""
+
+msgid "Can steps cells be clicked ?"
+msgstr ""
+
+msgid "The user will return to the corresponding step when a step cell is clicked"
+msgstr ""
+
+msgid "The step that contains this element"
+msgstr ""
+
+msgid "Hide zero quantities"
+msgstr ""
+
+msgid "Do you want to hide zero quantities ?"
+msgstr ""
+
+msgid "Generate a shortcode"
+msgstr ""
+
+msgid "Displaying"
+msgstr ""
+
+msgid "In the page"
+msgstr ""
+
+msgid "Fullscreen"
+msgstr ""
+
+msgid "Popup"
+msgstr ""
+
+msgid "Start step"
+msgstr ""
+
+msgid "Hide in summary if zero price"
+msgstr ""
+
+msgid "This item will be hidden in the summary if its price is equal to zero"
+msgstr ""
+
+msgid "Progress bar follows"
+msgstr ""
+
+msgid "The main progress bar progression will follow the selected total amount type"
+msgstr ""
+
+msgid "Single cost total amount"
+msgstr ""
+
+msgid "Subscription total amount"
+msgstr ""
+
+msgid "Choose the style of this checkbox"
+msgstr ""
+
+msgid "Checkbox style"
+msgstr ""
+
+msgid "Switchbox"
+msgstr ""
+
+msgid "Keep the tooltip displayed"
+msgstr ""
+
+msgid "The slider tooltip will always be open"
+msgstr ""
+
+msgid "Choose a currency"
+msgstr ""
+
+msgid "Use Razorpay payment"
+msgstr ""
+
+msgid "Razorpay key ID"
+msgstr ""
+
+msgid "Razorpay secret key"
+msgstr ""
+
+msgid "Enter your Razorpay key ID"
+msgstr ""
+
+msgid "Enter your Razorpay secret key"
+msgstr ""
+
+msgid "Logo image"
+msgstr ""
+
+msgid "Stripe payment modal title"
+msgstr ""
+
+msgid "Something like \"Make a payment\""
+msgstr ""
+
+msgid "Label of the payment button"
+msgstr ""
+
+msgid "Something like \"Pay now\""
+msgstr ""
+
+msgid "Label of the total amount"
+msgstr ""
+
+msgid "Something like \"Total to pay\""
+msgstr ""
+
+msgid "Label of the card owner field"
+msgstr ""
+
+msgid "Something like \"Card owner name\""
+msgstr ""
+
+msgid "Error of payment title"
+msgstr ""
+
+msgid "Something like \"Payment could not be made\""
+msgstr ""
+
+msgid "Tooltip image"
+msgstr ""
+
+msgid "Tooltips width"
+msgstr ""
+
+msgid "Hide steps rows"
+msgstr ""
+
+msgid "Do you want to hide the steps rows ?"
+msgstr ""
+
+msgid "Price calculation"
+msgstr ""
+
+msgid "Item price"
+msgstr ""
+
+msgid "Item quantity"
+msgstr ""
+
+msgid "Validation mask"
+msgstr ""
+
+msgid "Mask"
+msgstr ""
+
+msgid "Examples"
+msgstr ""
+
+msgid "Text only"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Variable"
+msgstr ""
+
+msgid "My Variable"
+msgstr ""
+
+msgid "Delete a variable"
+msgstr ""
+
+msgid "Are you sure you want to delete the variable [variableName] ?"
+msgstr ""
+
+msgid "Integer"
+msgstr ""
+
+msgid "Float"
+msgstr ""
+
+msgid "Edit a variable"
+msgstr ""
+
+msgid "Create a new variable"
+msgstr ""
+
+msgid "GET variable name"
+msgstr ""
+
+msgid "Modify a variable"
+msgstr ""
+
+msgid "Add a dynamic value"
+msgstr ""
+
+msgid "Item of the form"
+msgstr ""
+
+msgid "Return to the orders"
+msgstr ""
+
+msgid "Type of value"
+msgstr ""
+
+msgid "Use email verification"
+msgstr ""
+
+msgid "Job phone"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
+msgid "Customers"
+msgstr ""
+
+msgid "Customers List"
+msgstr ""
+
+msgid "Add a new customer"
+msgstr ""
+
+msgid "Delete this customer"
+msgstr ""
+
+msgid "Are you sure you want to delete this customer and all his orders ?"
+msgstr ""
+
+msgid "Customer details"
+msgstr ""
+
+msgid "Subscription total"
+msgstr ""
+
+msgid "Inscription"
+msgstr ""
+
+msgid "Customer information"
+msgstr ""
+
+msgid "Past orders"
+msgstr ""
+
+msgid "Return"
+msgstr ""
+
+msgid "Global settings"
+msgstr ""
+
+msgid "Edit global texts"
+msgstr ""
+
+msgid "Enable frontend customer account management"
+msgstr ""
+
+msgid "Account management page"
+msgstr ""
+
+msgid "The account management will be displayed in the selected page"
+msgstr ""
+
+msgid "Button \"Login\""
+msgstr ""
+
+msgid "Label \"First name\""
+msgstr ""
+
+msgid "Label \"Last name\""
+msgstr ""
+
+msgid "Label \"Email\""
+msgstr ""
+
+msgid "Label \"Address\""
+msgstr ""
+
+msgid "Label \"City\""
+msgstr ""
+
+msgid "Label \"Country\""
+msgstr ""
+
+msgid "Label \"State\""
+msgstr ""
+
+msgid "Label \"Postal code\""
+msgstr ""
+
+msgid "Label \"Phone\""
+msgstr ""
+
+msgid "Label \"Company\""
+msgstr ""
+
+msgid "Label \"Website\""
+msgstr ""
+
+msgid "reCaptcha 3 Public Key"
+msgstr ""
+
+msgid "reCaptcha 3 Secret Key"
+msgstr ""
+
+msgid "Title of the customer account page"
+msgstr ""
+
+msgid "Title \"My orders\""
+msgstr ""
+
+msgid "Customer account texts"
+msgstr ""
+
+msgid "Download the customers list"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Main colors"
+msgstr ""
+
+msgid "Warning color"
+msgstr ""
+
+msgid "Danger color"
+msgstr ""
+
+msgid "Login panel background color"
+msgstr ""
+
+msgid "Login panel text color"
+msgstr ""
+
+msgid "Order status"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Canceled"
+msgstr ""
+
+msgid "Being Processed"
+msgstr ""
+
+msgid "Shipped"
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Default order status"
+msgstr ""
+
+msgid "Label \"Status\""
+msgstr ""
+
+msgid "Label \"Subscription total\""
+msgstr ""
+
+msgid "If the customer account management option is activated, it will show the link to the defined page"
+msgstr ""
+
+msgid "Use SMTP to send emails"
+msgstr ""
+
+msgid "SMTP Host"
+msgstr ""
+
+msgid "SMTP Port"
+msgstr ""
+
+msgid "SMTP Username"
+msgstr ""
+
+msgid "SMTP Password"
+msgstr ""
+
+msgid "SMTP Mode"
+msgstr ""
+
+msgid "Distances calculation mode"
+msgstr ""
+
+msgid "Route"
+msgstr ""
+
+msgid "Direct"
+msgstr ""
+
+msgid "Data deletion request confirmation"
+msgstr ""
+
+msgid "Max events at same time"
+msgstr ""
+
+msgid "Here, the variable value will be 10. If the item #3 is selected, the value of the selected variable will be the half of the item #3 calculated price multiplied by the selected quantity of the item #1."
+msgstr ""
+
+msgid "Here, the default quantity of the item will be 10. If the item #3 is selected, the quantity of the current item will be the half of the item #3 calculated price multiplied by the selected quantity of the item #1."
+msgstr ""
+
+msgid "Here, the default price of the item will be $10. If the item #3 is selected, the price of the current item will be the half of the item #3 calculated price multiplied by the selected quantity of the item #1."
+msgstr ""
+
+msgid "Forgotten password link"
+msgstr ""
+
+msgid "Password sent confirmation"
+msgstr ""
+
+msgid "Shadow effect"
+msgstr ""
+
+msgid "Use this option only on images without transparent background"
+msgstr ""
+
+msgid "Step number"
+msgstr ""
+
+msgid "All steps"
+msgstr ""
+
+msgid "Background image"
+msgstr ""
+
+msgid "Start date after X days"
+msgstr ""
+
+msgid "The minimum selectable date will start after the number of days defined here"
+msgstr ""
+
+msgid "Dark mode"
+msgstr ""
+
+msgid "Password email subject"
+msgstr ""
+
+msgid "These notes are visible only by administrators"
+msgstr ""
+
+msgid "The option \"Enable customers account\" must be activated in the global settings to use this option"
+msgstr ""
+
+msgid "Test SMTP"
+msgstr ""
+
+msgid "A simple test email"
+msgstr ""
+
+msgid "This is a test email sent by SMTP from E&P Forms Builder"
+msgstr ""
+
+msgid "The message was correctly sent"
+msgstr ""
+
+msgid "The message can not be sent"
+msgstr ""
+
+msgid "Price of the item [item]"
+msgstr ""
+
+msgid "Quantity of the item [item]"
+msgstr ""
+
+msgid "Value of the item [item]"
+msgstr ""
+
+msgid "Title of the item [item]"
+msgstr ""
+
+msgid "Total quantity of the step [step]"
+msgstr ""
+
+msgid "Total price of the step [step]"
+msgstr ""
+
+msgid "Total selected quantity in the form"
+msgstr ""
+
+msgid "Total price of the form"
+msgstr ""
+
+msgid "Title of the step [step]"
+msgstr ""
+
+msgid "Export events"
+msgstr ""
+
+msgid "Download the calendar events"
+msgstr ""
+
+msgid "Download order as PDF"
+msgstr ""
+
+msgid "PDF file name"
+msgstr ""
+
+msgid "The result will be the"
+msgstr ""
+
+msgid "between the two addresses in"
+msgstr ""
+
+msgid "Distance"
+msgstr ""
+
+msgid "Travel duration"
+msgstr ""
+
+msgid "An electronic signature will be asked in the last step"
+msgstr ""
+
+msgid "Use e-signature"
+msgstr ""
+
+msgid "Signature text"
+msgstr ""
+
+msgid "Country selection"
+msgstr ""
+
+msgid "This select field will show all countries as options"
+msgstr ""
+
+msgid "Form preview"
+msgstr ""
+
+msgid "My item"
+msgstr ""
+
+msgid "Row settings"
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Add a column"
+msgstr ""
+
+msgid "Small"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "XL"
+msgstr ""
+
+msgid "Use steps visual builder"
+msgstr ""
+
+msgid "Add a component"
+msgstr ""
+
+msgid "Step settings"
+msgstr ""
+
+msgid "Edit final step content"
+msgstr ""
+
+msgid "Maximum width of the step container"
+msgstr ""
+
+msgid "Rate"
+msgstr ""
+
+msgid "It defines the interval between each values of the element"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Delete an element"
+msgstr ""
+
+msgid "Are you sure you want to delete this element ?"
+msgstr ""
+
+msgid "Delete a step"
+msgstr ""
+
+msgid "V.A.T"
+msgstr ""
+
+msgid "Apply V.A.T"
+msgstr ""
+
+msgid "If true, the defined percentage will be added to the total of the form in the last step"
+msgstr ""
+
+msgid "V.A.T percentage"
+msgstr ""
+
+msgid "V.A.T label"
+msgstr ""
+
+msgid "Attribute to sent"
+msgstr ""
+
+msgid "Quantity / value"
+msgstr ""
+
+msgid "Map type"
+msgstr ""
+
+msgid "Marker"
+msgstr ""
+
+msgid "Itinerary"
+msgstr ""
+
+msgid "Fill the address where the marker must be displayed"
+msgstr ""
+
+msgid "Map"
+msgstr ""
+
+msgid "Image file"
+msgstr ""
+
+msgid "Font Awesome icon"
+msgstr ""
+
+msgid "This option defines the visual style of the map"
+msgstr ""
+
+msgid "Choose if the map must show a marker or an itinerary"
+msgstr ""
+
+msgid "Aubergine"
+msgstr ""
+
+msgid "Night"
+msgstr ""
+
+msgid "Retro"
+msgstr ""
+
+msgid "Desktop scroll margin"
+msgstr ""
+
+msgid "Mobile scroll margin"
+msgstr ""
+
+msgid "Show bubble summary information column"
+msgstr ""
+
+msgid "Autoclose datepicker"
+msgstr ""
+
+msgid "The datepicker will be closed when a date will be selected"
+msgstr ""
+
+msgid "If this option is enabled, the form summary will be defined as product attribute in the woo order"
+msgstr ""
+
+msgid "Add summary as product attribute"
+msgstr ""
+
+msgid "Use current woo product"
+msgstr ""
+
+msgid "This option only works when the form is displayed in a woo product page. It assign the detected product to the current item."
+msgstr ""
+
+msgid "Styles are now applied to the website"
+msgstr ""
+
+msgid "The styles are applied"
+msgstr ""
+
+msgid "Stop the selection"
+msgstr ""
+
+msgid "Inspector"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Apply these styles to the current element"
+msgstr ""
+
+msgid "Focus state"
+msgstr ""
+
+msgid "Mouse over state"
+msgstr ""
+
+msgid "Default state"
+msgstr ""
+
+msgid "Phones only"
+msgstr ""
+
+msgid "Tablets only"
+msgstr ""
+
+msgid "Tablets & Phones"
+msgstr ""
+
+msgid "Desktop & Tablets"
+msgstr ""
+
+msgid "Desktop only"
+msgstr ""
+
+msgid "All devices"
+msgstr ""
+
+msgid "Styles"
+msgstr ""
+
+msgid "Enter the target CSS classes separated by spaces"
+msgstr ""
+
+msgid "All elements having CSS classes"
+msgstr ""
+
+msgid "Only this element"
+msgstr ""
+
+msgid "Apply modifications to"
+msgstr ""
+
+msgid "Selected element"
+msgstr ""
+
+msgid "Selection"
+msgstr ""
+
+msgid "Form designer"
+msgstr ""
+
+msgid "Reset styles"
+msgstr ""
+
+msgid "Save the modifications"
+msgstr ""
+
+msgid "Edit the generated CSS code"
+msgstr ""
+
+msgid "All styles from the beginning"
+msgstr ""
+
+msgid "Only this session"
+msgstr ""
+
+msgid "Do you want to remove only the styles modified since the last save, or all styles that were created with this tool until now ?"
+msgstr ""
+
+msgid "Reset the styles"
+msgstr ""
+
+msgid "Do you want to save the modified styles before editing the css code ?"
+msgstr ""
+
+msgid "Save styles before editing ?"
+msgstr ""
+
+msgid "Do you want to apply the modified styles to the current element before saving ?"
+msgstr ""
+
+msgid "Apply styles to the current element ?"
+msgstr ""
+
+msgid "Do you want to save the modifications you did before leaving ?"
+msgstr ""
+
+msgid "Do you want to save before leaving ?"
+msgstr ""
+
+msgid "Return to the form management"
+msgstr ""
+
+msgid "Select an element"
+msgstr ""
+
+msgid "Text shadow"
+msgstr ""
+
+msgid "Text color"
+msgstr ""
+
+msgid "Underline"
+msgstr ""
+
+msgid "Italic"
+msgstr ""
+
+msgid "Bold"
+msgstr ""
+
+msgid "Text style"
+msgstr ""
+
+msgid "Line height"
+msgstr ""
+
+msgid "Line height type"
+msgstr ""
+
+msgid "Justify"
+msgstr ""
+
+msgid "Alignment"
+msgstr ""
+
+msgid "Font size"
+msgstr ""
+
+msgid "Distance Y"
+msgstr ""
+
+msgid "Distance X"
+msgstr ""
+
+msgid "Outside"
+msgstr ""
+
+msgid "Inside"
+msgstr ""
+
+msgid "Shadow type"
+msgstr ""
+
+msgid "Shadow"
+msgstr ""
+
+msgid "Opacity"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Scroll Y"
+msgstr ""
+
+msgid "Visible"
+msgstr ""
+
+msgid "Scroll"
+msgstr ""
+
+msgid "Overlay"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Scroll X"
+msgstr ""
+
+msgid "Scroll & Visibility"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Height type"
+msgstr ""
+
+msgid "Width"
+msgstr ""
+
+msgid "Width type"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Position right"
+msgstr ""
+
+msgid "Position bottom"
+msgstr ""
+
+msgid "Position top"
+msgstr ""
+
+msgid "Position left"
+msgstr ""
+
+msgid "Static"
+msgstr ""
+
+msgid "Relative"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Position type"
+msgstr ""
+
+msgid "Both"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Floating"
+msgstr ""
+
+msgid "Inline block"
+msgstr ""
+
+msgid "Inline"
+msgstr ""
+
+msgid "Block"
+msgstr ""
+
+msgid "Display mode"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Padding right"
+msgstr ""
+
+msgid "Padding left"
+msgstr ""
+
+msgid "Padding bottom"
+msgstr ""
+
+msgid "Padding top"
+msgstr ""
+
+msgid "Paddings"
+msgstr ""
+
+msgid "Margin right"
+msgstr ""
+
+msgid "Margin left"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Margin bottom"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Flexible"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Margin top"
+msgstr ""
+
+msgid "Margins"
+msgstr ""
+
+msgid "Bottom right radius"
+msgstr ""
+
+msgid "Bottom left radius"
+msgstr ""
+
+msgid "Top right radius"
+msgstr ""
+
+msgid "Top left radius"
+msgstr ""
+
+msgid "Border color"
+msgstr ""
+
+msgid "Inset"
+msgstr ""
+
+msgid "Double"
+msgstr ""
+
+msgid "Dotted"
+msgstr ""
+
+msgid "Dashed"
+msgstr ""
+
+msgid "Solid"
+msgstr ""
+
+msgid "Border style"
+msgstr ""
+
+msgid "Border size"
+msgstr ""
+
+msgid "Borders"
+msgstr ""
+
+msgid "Cover"
+msgstr ""
+
+msgid "Contain"
+msgstr ""
+
+msgid "Initial"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Image url"
+msgstr ""
+
+msgid "Background opacity"
+msgstr ""
+
+msgid "Background type"
+msgstr ""
+
+msgid "Background"
+msgstr ""
+
+msgid "Add a shortcode"
+msgstr ""
+
+msgid "Summary thead background color"
+msgstr ""
+
+msgid "Summary thead text color"
+msgstr ""
+
+msgid "Summary body background color"
+msgstr ""
+
+msgid "Summary body text color"
+msgstr ""
+
+msgid "Summary step background color"
+msgstr ""
+
+msgid "Summary step text color"
+msgstr ""
+
+msgid "Export all"
+msgstr ""
+
+msgid "Customer address"
+msgstr ""
+
+msgid "Label \"Job\""
+msgstr ""
+
+msgid "Label \"Save\""
+msgstr ""
+
+msgid "Label \"Job phone\""
+msgstr ""
+
+msgid "Label \"Inscription\""
+msgstr ""
+
+msgid "Label \"Date\""
+msgstr ""
+
+msgid "Form creation wizard"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Create a form"
+msgstr ""
+
+msgid "Password confirmation"
+msgstr ""
+
+msgid "Create the form"
+msgstr ""
+
+msgid "Designer"
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "Custom content"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Title of the form"
+msgstr ""
+
+msgid "A form that will calculate the cost of a service or a product"
+msgstr ""
+
+msgid "A form that allows your customer to pay online"
+msgstr ""
+
+msgid "A simple contact form in a single step"
+msgstr ""
+
+msgid "A totally blank form"
+msgstr ""
+
+msgid "Blank form"
+msgstr ""
+
+msgid "Contact form"
+msgstr ""
+
+msgid "Payment form"
+msgstr ""
+
+msgid "Cost estimation form"
+msgstr ""
+
+msgid "Range"
+msgstr ""
+
+msgid "Step builder"
+msgstr ""
+
+msgid "Visual step builder"
+msgstr ""
+
+msgid "List of items"
+msgstr ""
+
+msgid "The visual step builder allows you to easily create complex layouts"
+msgstr ""
+
+msgid "The items of each step are managed from a list"
+msgstr ""
+
+msgid "Date & currency"
+msgstr ""
+
+msgid "Minimum date from datepicker"
+msgstr ""
+
+msgid "The modifications have been saved"
+msgstr ""
+
+msgid "Important! One standard license is valid only for 1 website. Running multiple websites on a single license is a copyright violation."
+msgstr ""
+
+msgid "Price & quantity"
+msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Add a row"
+msgstr ""
+
+msgid "Item row"
+msgstr ""
+
+msgid "Step row"
+msgstr ""
+
+msgid "Define as start step"
+msgstr ""
+
+msgid "Final redirection"
+msgstr ""
+
+msgid "Fields text"
+msgstr ""
+
+msgid "Focus fields border"
+msgstr ""
+
+msgid "Fields border"
+msgstr ""
+
+msgid "Fields background"
+msgstr ""
+
+msgid "Buttons background"
+msgstr ""
+
+msgid "Buttons text"
+msgstr ""
+
+msgid "Label font size"
+msgstr ""
+
+msgid "Select the alignment of this element"
+msgstr ""
+
+msgid "This value defines the columns margin size"
+msgstr ""
+
+msgid "Columns margin"
+msgstr ""
+
+msgid "Gradient background color 1"
+msgstr ""
+
+msgid "Gradient background color 2"
+msgstr ""
+
+msgid "Gradient background"
+msgstr ""
+
+msgid "Activate this option to show a gradient as background"
+msgstr ""
+
+msgid "Hide information column"
+msgstr ""
+
+msgid "Read only"
+msgstr ""
+
+msgid "The user will not be able to modify the value of this field"
+msgstr ""
+
+msgid "Youtube embed code"
+msgstr ""
+
+msgid "Paste the Youtube iframe html code here"
+msgstr ""
+
+msgid "Youtube video"
+msgstr ""
+
+msgid "Fill the GET variable name to prefill this field with the detected value"
+msgstr ""
+
+msgid "Prefill with GET variable"
+msgstr ""
+
+msgid "BCC email"
+msgstr ""
+
+msgid "A BCC copy of the email will be sent to this address"
+msgstr ""
+
+msgid "Hide zero decimals"
+msgstr ""
+
+msgid "Do you want to hide decimals in prices when they are null ?"
+msgstr ""
+
+msgid "Load scripts asynchronously"
+msgstr ""
+
+msgid "Show as column in CSV"
+msgstr ""
+
+msgid "Load scripts in footer"
+msgstr ""
+
+msgid "Add extra css classes to this item"
+msgstr ""
+
+msgid "Disable automatic scroll"
+msgstr ""
+
+msgid "This option disables the automatic scrolling when a new step is opened"
+msgstr ""
+
+msgid "CSV column title"
+msgstr ""
+
+msgid "This facultative name will be used only on the backend"
+msgstr ""
+
+msgid "Alias"
+msgstr ""
+
+msgid "License registration"
+msgstr ""
+
+msgid "Expiration"
+msgstr ""
+
+msgid "Can expire"
+msgstr ""
+
+msgid "Url of the website"
+msgstr ""
+
+msgid "The customer's name"
+msgstr ""
+
+msgid "Title of the website"
+msgstr ""
+
+msgid "New account email subject"
+msgstr ""
+
+msgid "Last order"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Job"
+msgstr ""
+
+msgid "Select a page that will be used for preview"
+msgstr ""
+
+msgid "Preview page"
+msgstr ""
+
+msgid "Content of the new account created email"
+msgstr ""
+
+msgid "Custom quantity selector"
+msgstr ""
+
+msgid "+ and - buttons will be displayed around the field"
+msgstr ""
+
+msgid "Mailchimp Server prefix"
+msgstr ""
+
+msgid "Customer account title"
+msgstr ""
+
+msgid "Backend theme"
+msgstr ""
+
+msgid "Flat"
+msgstr ""
+
+msgid "Glassmorphic"
+msgstr ""
+
+msgid "Select a gradient"
+msgstr ""
+
+msgid "Glassmorphism"
+msgstr ""
+
+msgid "Flat & Dark"
+msgstr ""
+
+msgid "The plugin license has not yet been activated."
+msgstr ""
+
+msgid "You must enter your purchase code in order to activate the license on your website."
+msgstr ""
+
+msgid "Each website requires its own license."
+msgstr ""
+
+msgid "Read more"
+msgstr ""
+
+msgid "Buy a license"
+msgstr ""
+
+msgid "Activate my license"
+msgstr ""
+
+msgid "You can create an API key on your OpenAI account by clicking here:"
+msgstr ""
+
+msgid "Fill your OpenAI API key"
+msgstr ""
+
+msgid "A.I form creation"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "OpenAI API key"
+msgstr ""
+
+msgid "Describe the wanted form"
+msgstr ""
+
+msgid "Explain in detail the steps, articles, and behaviors of the form you want to create"
+msgstr ""
+
+msgid "This API key is not valid"
+msgstr ""
+
+msgid "Describe your form design"
+msgstr ""
+
+msgid "Explain the design you want for your form"
+msgstr ""
+
+msgid "Generating your form..."
+msgstr ""
+
+msgid "Type of form"
+msgstr ""
+
+msgid "Cost estimation"
+msgstr ""
+
+msgid "The backend theme has been changed. Please refresh the page to see the changes"
+msgstr ""
+
+msgid "Progress bar background color"
+msgstr ""
+
+msgid "Progress bar color"
+msgstr ""
+
+msgid "If you like WP Cost Estimation & Payment Forms Builder, please don't forget to leave a good rating to support the developer!"
+msgstr ""
+
+msgid "Default quantity"
+msgstr ""
+
+msgid "OpenAI API Key"
+msgstr ""
+
+msgid "OpenAI Model Choice"
+msgstr ""
+
+msgid "Use A.I"
+msgstr ""
+
+msgid "An error occurred. Please try again."
+msgstr ""
+
+msgid "AI Calculation Wizard"
+msgstr ""
+
+msgid "Describe the calculation you want to apply to this item..."
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Calculate"
+msgstr ""
+
+msgid "AI Form Generator"
+msgstr ""
+
+msgid "Describe your form"
+msgstr ""
+
+msgid "Example: I need a form for a car rental service with steps for selecting the car type, rental duration, insurance options, and customer details..."
+msgstr ""
+
+msgid "Provide as much detail as possible about your form requirements, including steps, fields, pricing logic, and any specific conditions."
+msgstr ""
+
+msgid "Generate Form"
+msgstr ""
+
+msgid "Select the language for the form."
+msgstr ""
+
+msgid "A.I Wizard"
+msgstr ""
+
+msgid "Disabled dates color"
+msgstr ""
+
+msgid "Datepicker color"
+msgstr ""
+
+msgid "Datepicker dates color"
+msgstr ""
+
+msgid "Section"
+msgstr ""
+
+msgid "Email must be verified ?"
+msgstr ""
+
+msgid "A unique code will be sent by email to verify the address"
+msgstr ""
+
+msgid "Emails texts"
+msgstr ""
+
+msgid "Verification email subject"
+msgstr ""
+
+msgid "Verification email content"
+msgstr ""
+
+msgid "Verification code"
+msgstr ""
+
+msgid "Content of the verification email"
+msgstr ""
+
+msgid "Verify email"
+msgstr ""
+
+msgid "If true, the user will receive a verification code by email"
+msgstr ""
+
+msgid "Please wait 20 seconds before requesting a new code"
+msgstr ""

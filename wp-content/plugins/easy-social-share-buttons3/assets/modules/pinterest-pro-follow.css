@@ -1,0 +1,142 @@
+.essb-pinterest-follow-box-container {
+	background: rgba(0, 0, 0, .45);
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100000;		
+	display: none;
+}
+
+.essb-pinterest-follow-box-container.active {
+	display: block;
+}
+
+.essb-pinterest-follow-box {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 400px;
+	width: 95%;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+.essb-pinterest-follow-box-header {
+	background-size: cover;
+	background-position: center center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 125px;
+	position: relative;
+}
+
+.essb-pinterest-follow-box-header-light:before {
+	background-color: hsla(0, 0%, 80%, .5);
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.essb-pinterest-follow-box-header-dark:before {
+	background-color: hsla(0, 0%, 50%, .5);
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.essb-pinterest-follow-box-header__close {
+    z-index: 99;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+	cursor: pointer;
+	transition: all 0.1s ease-in-out;
+}
+
+
+.essb-pinterest-follow-box-header__close:hover {
+	background-color: #000;
+}
+
+.essb-pinterest-follow-box-header__close:hover svg {
+	fill: #fff;
+}
+
+.essb-pinterest-follow-box-header__logo {
+	background-origin: content-box;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid #fff;
+    border-radius: 9999px;
+    bottom: 0;
+    height: 90px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    width: 90px;
+	background-color: #fff;
+}
+
+.essb-pinterest-follow-box-content {
+	padding: 60px 20px 10px;
+    text-align: center;
+}
+
+.essb-pinterest-follow-box-content__title {
+	font-size: 21px;
+	font-weight: 500;
+    margin-bottom: 0.3em;
+}
+
+.essb-pinterest-follow-box-content__action {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+.essb-pinterest-follow-box-content__action a {
+	background-color: var(--button-bg,#cd1c1f);
+	align-items: center;
+    border-radius: 10px;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+	color: var(--button-text,#fff);
+	transition: all 0.1s ease-in-out;
+}
+
+.essb-pinterest-follow-box-content__action a:hover {
+	opacity: 0.9;
+}
+
+.essb-pinterest-follow-box-content__action a svg {
+	fill: var(--button-text,#fff);
+	width: 18px;
+	height: 18px;
+	margin-left: 10px;
+}

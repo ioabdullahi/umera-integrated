@@ -1,0 +1,110 @@
+{
+    "templates": [
+        
+
+
+        {
+            "template_name": "SEOWP_Section: Clients",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_clients.json"
+        },
+						        {
+            "template_name": "Services: Reputation Management",
+            "template_type": "fresh",
+            "template_file": "fresh_services_reputation_management.json"
+        },
+						        {
+            "template_name": "SEOWP_Services: Search Engine Optimization",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_search_engine_optimization.json"
+        },
+						        {
+            "template_name": "Seowp_Services: Pay Per Click Management (PPC)",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_pay_per_click_management_ppc.json"
+        },
+						        {
+            "template_name": "SEOWP_Services: Email Marketing",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_email_marketing.json"
+        },
+						        {
+            "template_name": "SEOWP_Services: Digital Consultancy",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_digital_consultancy.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Content Marketing",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_content_marketing.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Conversion Rate Optimization (CRO)",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_conversion_rate_optimization_cro.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Affiliate Management",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_affiliate_management.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner page: Services",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_services.json"
+        },
+        {
+            "template_name": "SEOWP_Services_Web_Development",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_web_development.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Company online presence analysis and audit",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_company_online_presence_analysis_and_audit.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Web_Design",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_web_design.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Content Marketing",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_content_marketing.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Conversion Rate Optimization (CRO)",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_conversion_rate_optimization_cro.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Social_Media_Marketing",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_social_media_marketing.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Digital Consultancy",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_digital_consultancy.json"
+        },
+														        {
+            "template_name": "SEOWP_Services: Email Marketing",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_email_marketing.json"
+        },
+														        {
+            "template_name": "SEOWP_Services_Search_Engine_Optimization",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_search_engine_optimization.json"
+        },
+														        {
+            "template_name": "seowp_Services: Local SEO",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_local_seo.json"
+        }				    
+								       
+
+
+    ]     
+}

@@ -1,0 +1,9 @@
+.rc-restricted-content-message {
+    padding: 40px;
+    display: block;
+    text-align: center;
+}
+
+.dslc-modules-section .rc-restricted-content-message {
+    padding: 0;
+}

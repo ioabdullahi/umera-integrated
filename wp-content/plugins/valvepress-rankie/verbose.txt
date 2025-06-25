@@ -1,0 +1,56 @@
+*   Trying 167.114.102.230:80...
+* TCP_NODELAY set
+* Connected to server4.kproxy.com (167.114.102.230) port 80 (#0)
+> GET /servlet/redirect.srv/sny/smuqzat/slmn/p2/search?q=porta+potty+rental&num=100 HTTP/1.1
+Host: server4.kproxy.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept: */*
+Referer: http://server4.kproxy.com/servlet/redirect.srv/sny/smuqzat/slmn/p2/
+Cookie: KP_DAT2__="Ym8hLXUtLiMjI05CVmdxekZINmtOuzlbNnVRbGI1UUFvNSMjI0yfbn0odHNMQWRqVG9OXVT="
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 302 
+< Location: http://server4.kproxy.com/servlet/redirect.srv/sruj/snvrabu/smno/p2/sorry/index?continue=https://www.google.si/search%3Fq%3Dporta%2Bpotty%2Brental%26num%3D100&q=EgSncmbmGOGXnIcGIhDIIDky6SRzaG_0QftAawr_MgFy
+< x-hallmonitor-challenge: CgwI4ZechwYQ7_XelAMSBKdyZuY
+< P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+< Date: Thu, 08 Jul 2021 14:29:53 GMT
+< Server: gws
+< X-XSS-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+* Added cookie 1P_JAR="2021-07-08-14" for domain server4.kproxy.com, path /servlet/redirect.srv/sny/smuqzat/, expire 1628346593
+< Set-Cookie: 1P_JAR=2021-07-08-14;path=/servlet/redirect.srv/sny/smuqzat/;expires=Sat, 07-Aug-2021 14:29:53 GMT;SameSite=none;
+* Added cookie CGIC="IgMqLyo" for domain server4.kproxy.com, path /servlet/redirect.srv/sny/smuqzat/, expire 1641306593
+< Set-Cookie: CGIC=IgMqLyo;path=/servlet/redirect.srv/sny/smuqzat/;expires=Tue, 04-Jan-2022 14:29:53 GMT;HttpOnly;
+* Replaced cookie CGIC="IgMqLyo" for domain server4.kproxy.com, path /servlet/redirect.srv/sny/smuqzat/, expire 1641306593
+< Set-Cookie: CGIC=IgMqLyo;path=/servlet/redirect.srv/sny/smuqzat/;expires=Tue, 04-Jan-2022 14:29:53 GMT;HttpOnly;
+* Added cookie NID="218=FJID7uF3e0LTVih5ENBeJ40kYNIVAZNO44_zMT4M301nzStqP4_5Gu9eecAjT7m7tFsQKTIUxNuHIqfCS9voiBt6jGN83j1dE_UhytVGz57DGEh97eQsHq_EHkBvQvmTVb3ydIGOF3CcLocFGKCbWlApgMIVoWv5uYKp1_KuAvc" for domain server4.kproxy.com, path /servlet/redirect.srv/sny/smuqzat/, expire 1641565793
+< Set-Cookie: NID=218=FJID7uF3e0LTVih5ENBeJ40kYNIVAZNO44_zMT4M301nzStqP4_5Gu9eecAjT7m7tFsQKTIUxNuHIqfCS9voiBt6jGN83j1dE_UhytVGz57DGEh97eQsHq_EHkBvQvmTVb3ydIGOF3CcLocFGKCbWlApgMIVoWv5uYKp1_KuAvc;path=/servlet/redirect.srv/sny/smuqzat/;expires=Fri, 07-Jan-2022 14:29:53 GMT;HttpOnly;
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Content-Type: text/html;charset=UTF-8
+< Content-Length: 406
+< 
+* Connection #0 to host server4.kproxy.com left intact
+* Found bundle for host server4.kproxy.com: 0x7fdb7649f1e0 [serially]
+* Can not multiplex, even if we wanted to!
+* Re-using existing connection! (#0) with host server4.kproxy.com
+* Connected to server4.kproxy.com (167.114.102.230) port 80 (#0)
+> GET /servlet/redirect.srv/sruj/snvrabu/smno/p2/sorry/index?continue=https://www.google.si/search%3Fq%3Dporta%2Bpotty%2Brental%26num%3D100&q=EgSncmbmGOGXnIcGIhDIIDky6SRzaG_0QftAawr_MgFy HTTP/1.1
+Host: server4.kproxy.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept: */*
+Referer: http://server4.kproxy.com/servlet/redirect.srv/sny/smuqzat/slmn/p2/
+Cookie: KP_DAT2__="Ym8hLXUtLiMjI05CVmdxekZINmtOuzlbNnVRbGI1UUFvNSMjI0yfbn0odHNMQWRqVG9OXVT="
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 429 
+< Date: Thu, 08 Jul 2021 14:29:54 GMT
+< Pragma: no-cache
+< Expires: Fri, 01 Jan 1990 00:00:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Server: HTTP server (unknown)
+< X-XSS-Protection: 0
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Content-Type: text/html
+< Content-Length: 5166
+< 
+* Connection #0 to host server4.kproxy.com left intact

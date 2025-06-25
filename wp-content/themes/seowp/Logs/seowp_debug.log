@@ -1,0 +1,102 @@
+
+2025-06-17 01:21:10 :: ---------------------------- SEOWP Activation Started ----------------------------
+2025-06-17 01:21:10 :: SEND THIS data to HUBSPOT :: email=dev-email%40wpengine.local&page_url =http%3A%2F%2Fumera-integrated.local
+2025-06-17 01:21:11 :: ---------------------------- SEOWP Activation Completed ----------------------------
+2025-06-17 01:21:12 :: -----------Theme config started----------
+2025-06-17 01:21:18 :: -----------Plugins selected----------
+2025-06-17 01:21:18 :: Plugins List ::{"all":{"easy-social-share-buttons3":{"name":"Easy Social Share Buttons for WordPress","slug":"easy-social-share-buttons3","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/easy-social-share-buttons3.100.3.zip","required":false,"version":"100.3","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"easy-social-share-buttons3","source_type":"external"},"live-composer-page-builder":{"name":"Live Composer","slug":"live-composer-page-builder","source":"repo","required":true,"version":"","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"live-composer-page-builder","source_type":"repo"},"lc-extensions":{"name":"Live Composer - Extensions","slug":"lc-extensions","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/lc-extensions.1.4.zip","required":true,"version":"1.4","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"lc-extensions","source_type":"external"},"masterslider":{"name":"MasterSlider","slug":"masterslider","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/masterslider.30.6.5.zip","required":false,"version":"30.6.5","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"masterslider","source_type":"external"},"ninja-forms":{"name":"Ninja Forms","slug":"ninja-forms","source":"repo","required":false,"version":"","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"ninja-forms","source_type":"repo"},"ninja-forms-mailchimp-optins":{"name":"Ninja Forms MailChimp Opt-ins","slug":"ninja-forms-mailchimp-optins","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/ninja-forms-mailchimp-optins.30.3.0.zip","required":false,"version":"30.3.0","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"ninja-forms-mailchimp-optins","source_type":"external"},"ninja-forms-paypal-standard":{"name":"Ninja Forms PayPal Standard Payment Gateway","slug":"ninja-forms-paypal-standard","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/ninja-forms-paypal-standard.30.5.zip","required":false,"version":"30.5","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"ninja-forms-paypal-standard","source_type":"external"},"valvepress-rankie":{"name":"ValvePress Rankie","slug":"valvepress-rankie","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/valvepress-rankie.10.8.2.zip","required":false,"version":"10.8.2","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"valvepress-rankie","source_type":"external"},"estimation-form":{"name":"WP Cost Estimation & Payment Forms Builder","slug":"estimation-form","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/wp-cost-estimation-payment-forms-builder.100.2.3.zip","required":false,"version":"100.2.3","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"estimation-form","source_type":"external"}},"install":{"easy-social-share-buttons3":{"name":"Easy Social Share Buttons for WordPress","slug":"easy-social-share-buttons3","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/easy-social-share-buttons3.100.3.zip","required":false,"version":"100.3","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"easy-social-share-buttons3","source_type":"external"},"live-composer-page-builder":{"name":"Live Composer","slug":"live-composer-page-builder","source":"repo","required":true,"version":"","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"live-composer-page-builder","source_type":"repo"},"lc-extensions":{"name":"Live Composer - Extensions","slug":"lc-extensions","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/lc-extensions.1.4.zip","required":true,"version":"1.4","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"lc-extensions","source_type":"external"},"masterslider":{"name":"MasterSlider","slug":"masterslider","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/masterslider.30.6.5.zip","required":false,"version":"30.6.5","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"masterslider","source_type":"external"},"ninja-forms":{"name":"Ninja Forms","slug":"ninja-forms","source":"repo","required":false,"version":"","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"ninja-forms","source_type":"repo"},"ninja-forms-mailchimp-optins":{"name":"Ninja Forms MailChimp Opt-ins","slug":"ninja-forms-mailchimp-optins","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/ninja-forms-mailchimp-optins.30.3.0.zip","required":false,"version":"30.3.0","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"ninja-forms-mailchimp-optins","source_type":"external"},"ninja-forms-paypal-standard":{"name":"Ninja Forms PayPal Standard Payment Gateway","slug":"ninja-forms-paypal-standard","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/ninja-forms-paypal-standard.30.5.zip","required":false,"version":"30.5","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"ninja-forms-paypal-standard","source_type":"external"},"valvepress-rankie":{"name":"ValvePress Rankie","slug":"valvepress-rankie","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/valvepress-rankie.10.8.2.zip","required":false,"version":"10.8.2","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"valvepress-rankie","source_type":"external"},"estimation-form":{"name":"WP Cost Estimation & Payment Forms Builder","slug":"estimation-form","source":"http:\/\/seowptheme.com\/themeinstaller\/plugins\/wp-cost-estimation-payment-forms-builder.100.2.3.zip","required":false,"version":"100.2.3","force_activation":false,"force_deactivation":false,"external_url":"","is_callable":"","file_path":"estimation-form","source_type":"external"}},"update":[],"activate":[]}
+2025-06-17 01:21:27 :: Plugin Installed : live-composer-page-builder Installing
+2025-06-17 01:22:23 :: Plugin Installed : live-composer-page-builder Activating
+2025-06-17 01:22:28 :: Succefully Installed : live-composer-page-builder
+2025-06-17 01:22:28 :: Plugin Installed : lc-extensions Installing
+2025-06-17 01:22:47 :: Plugin Installed : lc-extensions Activating
+2025-06-17 01:22:48 :: Succefully Installed : lc-extensions
+2025-06-17 01:22:48 :: Plugin Installed : easy-social-share-buttons3 Installing
+2025-06-17 01:23:12 :: Plugin Installed : easy-social-share-buttons3 Activating
+2025-06-17 01:23:16 :: Succefully Installed : easy-social-share-buttons3
+2025-06-17 01:23:16 :: Succefully Installed : easy-social-share-buttons3
+2025-06-17 01:23:17 :: Plugin Installed : masterslider Installing
+2025-06-17 01:23:43 :: Plugin Installed : masterslider Activating
+2025-06-17 01:23:46 :: Succefully Installed : masterslider
+2025-06-17 01:23:46 :: Plugin Installed : ninja-forms Installing
+2025-06-17 01:24:21 :: Plugin Installed : ninja-forms Activating
+2025-06-17 01:24:39 :: Succefully Installed : ninja-forms
+2025-06-17 01:24:40 :: Plugin Installed : ninja-forms-mailchimp-optins Installing
+2025-06-17 01:24:52 :: Plugin Installed : ninja-forms-mailchimp-optins Activating
+2025-06-17 01:24:54 :: Succefully Installed : ninja-forms-mailchimp-optins
+2025-06-17 01:24:54 :: Plugin Installed : ninja-forms-paypal-standard Installing
+2025-06-17 01:25:11 :: Plugin Installed : ninja-forms-paypal-standard Activating
+2025-06-17 01:25:14 :: Succefully Installed : ninja-forms-paypal-standard
+2025-06-17 01:25:14 :: Plugin Installed : valvepress-rankie Installing
+2025-06-17 01:25:43 :: Plugin Installed : valvepress-rankie Activating
+2025-06-17 01:25:47 :: Succefully Installed : valvepress-rankie
+2025-06-17 01:25:47 :: Plugin Installed : estimation-form Installing
+2025-06-17 01:27:09 :: Plugin Installed : estimation-form Activating
+2025-06-17 01:27:24 :: Succefully Installed : estimation-form
+2025-06-17 01:28:19 :: Selected Type Fresh
+2025-06-17 01:28:22 :: Import start : config-set
+2025-06-17 01:28:22 :: Selected Type Fresh
+2025-06-17 01:28:24 :: Import start : config-set
+2025-06-17 01:28:24 :: Selected Type Fresh
+2025-06-17 01:28:27 :: Import start : config-set
+2025-06-17 01:28:27 :: Selected Type Fresh
+2025-06-17 01:28:36 :: Import start : config-set
+2025-06-17 01:28:36 :: Selected Type Fresh
+2025-06-17 01:28:38 :: Import start : config-set
+2025-06-17 01:28:38 :: Selected Type Fresh
+2025-06-17 01:28:39 :: Import start : config-set
+2025-06-17 01:28:39 :: Selected Type Fresh
+2025-06-17 01:28:40 :: Import start : config-set
+2025-06-17 01:28:40 :: Selected Type Fresh
+2025-06-17 01:28:41 :: Import start : config-set
+2025-06-17 01:28:41 :: Selected Type Fresh
+2025-06-17 01:28:48 :: -----------Theme content Started---------- 
+2025-06-17 01:28:59 :: Selected Type Fresh
+2025-06-17 01:28:59 :: Import start : content
+2025-06-17 01:28:59 :: Selected Type Fresh
+2025-06-17 01:29:22 :: Import start : content
+2025-06-17 01:29:22 :: Selected Type Fresh
+2025-06-17 01:29:43 :: Import start : content
+2025-06-17 01:29:43 :: Selected Type Fresh
+2025-06-17 01:30:05 :: Import start : content
+2025-06-17 01:30:05 :: Selected Type Fresh
+2025-06-17 01:30:27 :: Import start : content
+2025-06-17 01:30:27 :: Selected Type Fresh
+2025-06-17 01:30:48 :: Import start : content
+2025-06-17 01:30:48 :: Selected Type Fresh
+2025-06-17 01:31:10 :: Import start : content
+2025-06-17 01:31:10 :: Selected Type Fresh
+2025-06-17 01:31:30 :: Import start : content
+2025-06-17 01:31:30 :: Selected Type Fresh
+2025-06-17 01:31:51 :: Import start : content
+2025-06-17 01:31:51 :: Selected Type Fresh
+2025-06-17 01:32:24 :: Import start : content
+2025-06-17 01:32:24 :: Selected Type Fresh
+2025-06-17 01:32:54 :: Import start : content
+2025-06-17 01:32:54 :: Selected Type Fresh
+2025-06-17 01:33:18 :: Import start : content
+2025-06-17 01:33:18 :: Selected Type Fresh
+2025-06-17 01:33:39 :: Import start : content
+2025-06-17 01:33:39 :: Selected Type Fresh
+2025-06-17 01:34:05 :: Import start : content
+2025-06-17 01:34:05 :: Selected Type Fresh
+2025-06-17 01:34:29 :: Import start : content
+2025-06-17 01:34:29 :: Selected Type Fresh
+2025-06-17 01:34:52 :: Import start : content
+2025-06-17 01:34:52 :: Selected Type Fresh
+2025-06-17 01:35:14 :: Import start : content
+2025-06-17 01:35:14 :: Selected Type Fresh
+2025-06-17 01:35:36 :: Import start : content
+2025-06-17 01:35:36 :: Selected Type Fresh
+2025-06-17 01:35:58 :: Import start : content
+2025-06-17 01:35:58 :: Selected Type Fresh
+2025-06-17 01:36:14 :: Selected Type Fresh
+2025-06-17 01:36:14 :: Import start : widgets
+2025-06-17 01:36:14 :: Selected Type Fresh
+2025-06-17 01:36:15 :: Selected Type Fresh
+2025-06-17 01:36:16 :: Import start : options
+2025-06-17 01:36:16 :: Selected Type Fresh
+2025-06-17 01:36:16 :: Selected Type Fresh
+2025-06-17 01:36:16 :: Import start : after_import
+2025-06-17 01:36:16 :: Selected Type Fresh
+2025-06-17 01:36:41 :: -----------Theme content Completed----------

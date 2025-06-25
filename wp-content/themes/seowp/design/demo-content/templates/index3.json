@@ -1,0 +1,109 @@
+{
+    "templates": [
+        
+        {
+            "template_name": "SEOWP_Home Page \u2014 Front Page",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_home_page_u2014_front_page.json"
+        },
+								        {
+            "template_name": "SEOWP_Section: Testimonials",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_section_testimonials.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Mobile Marketing",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_mobile_marketing.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Social Media Marketing",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_social_media_marketing.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Web Design",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_web_design.json"
+        },
+								        {
+            "template_name": "SEOWP_Services: Web Development",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_services_web_development.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner page: Contact us",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_contact_us.json"
+        },
+								        {
+            "template_name": "SEOWP_Inner page: Contact us \u2013 Multiply addresses",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_inner_page_contact_us_u2013_multiply_addresses.json"
+        },
+								        {
+            "template_name": "SEOWP_Instant Web Design Services Quote",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_instant_web_design_services_quote.json"
+        },
+								        {
+            "template_name": "SEOWP_Blog with Sidebar",
+            "template_type": "fresh",
+            "template_file": "fresh_seowp_blog_with_sidebar.json"
+        },
+        {
+            "template_name": "SEOWP_Services: Mobile Marketing",
+            "template_type": "flat",
+            "template_file": "flat_seowp_services_mobile_marketing.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner page: Contact us \u2013 Multiply addresses",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_contact_us_u2013_multiply_addresses.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner Page: Instant Web Design Services Quote",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_instant_web_design_services_quote.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner Page: Instant SEO Services Quote",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_instant_seo_services_quote.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner page: Pricing Page",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_pricing_page.json"
+        },
+														        {
+            "template_name": "SEOWP_Blog Grid 3 Columns",
+            "template_type": "flat",
+            "template_file": "flat_seowp_blog_grid_3_columns.json"
+        },
+														        {
+            "template_name": "SEOWP_Blog with Sidebar",
+            "template_type": "flat",
+            "template_file": "flat_seowp_blog_with_sidebar.json"
+        },
+														        {
+            "template_name": "SEOWP_Section: Blog",
+            "template_type": "flat",
+            "template_file": "flat_seowp_section_blog.json"
+        },
+														        {
+            "template_name": "SEOWP_Inner Page: Instant Advertising Services Quote",
+            "template_type": "flat",
+            "template_file": "flat_seowp_inner_page_instant_advertising_services_quote.json"
+        },
+														        {
+            "template_name": "icon section with title & description",
+            "template_type": "flat",
+            "template_file": "flat_icon_section_with_title_description.json"
+        }
+							      
+
+
+
+    ]     
+}

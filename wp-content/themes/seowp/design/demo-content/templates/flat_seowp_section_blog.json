@@ -1,0 +1,190 @@
+{
+    "content": [
+        {
+            "id": "7dd277a8",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "75b267c1",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "340dd5ee",
+                            "settings": [],
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "flat_horizontal_blog",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "4aa63376",
+            "settings": {
+                "structure": "20"
+            },
+            "elements": [
+                {
+                    "id": "2665d400",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "35284dac",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": {
+                                        "url": "##base_theme_directory##/elemetor_support_icons/open-letter.svg",
+                                        "id": 70653
+                                    },
+                                    "library": "svg"
+                                },
+                                "title_text": " Get new blog posts by email:",
+                                "description_text": "",
+                                "position": "left"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-box",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "bea4a01",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "4dd8bd2c",
+                            "settings": {
+                                "shortcode": "[ninja_form id= ##SEOWP: MailChimp Subscribe Form – Horizontal## ]"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "shortcode",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "12774439",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "331777dd",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "4b4424b",
+                            "settings": {
+                                "tabs": [
+                                    {
+                                        "tab_title": "Tab #1",
+                                        "tab_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+                                        "_id": "06b4523"
+                                    },
+                                    {
+                                        "tab_title": "Tab #2",
+                                        "tab_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+                                        "_id": "40f867f"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "tabs",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "71266b9",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "66466630",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "50a0488f",
+                            "settings": [],
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "flat_customblog_vcard",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "50d01967",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "714084e3",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "2989b5c6",
+                            "settings": [],
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "Ctea-project-101",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "SEOWP_Section: Blog",
+    "type": "page"
+}
